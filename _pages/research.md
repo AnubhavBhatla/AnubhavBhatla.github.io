@@ -6,9 +6,8 @@ description:
 nav: true
 nav_order: 2
 display_categories: [research]
+horizontal: true
 ---
-
-_Guide: [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/)_ [Report](https://anubhavbhatla.github.io/assets/pdf/R&D_report.pdf){: .btn--report} [Slides](https://anubhavbhatla.github.io/assets/pptx/R&D_presentation.pptx){: .btn--slides} 
 
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
