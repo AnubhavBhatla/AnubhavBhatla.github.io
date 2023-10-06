@@ -6,6 +6,7 @@ description:
 nav: true
 nav_order: 3
 horizontal: true
+display_categories: [intern, tech, reading]
 ---
 
 <!-- pages/projects.md -->
