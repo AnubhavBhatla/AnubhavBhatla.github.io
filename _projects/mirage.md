@@ -5,7 +5,7 @@ description: "Proposed MAYA: A secure and storage-efficient fully-associative la
 img: assets/img/mirage.png
 importance: 1
 category: research
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: mirage
 ---
 
 <div class="row">

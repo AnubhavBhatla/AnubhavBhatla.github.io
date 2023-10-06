@@ -5,7 +5,7 @@ description: a project that redirects to another website
 img: assets/img/7.jpg
 importance: 3
 category: research
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: freeflow, freeway
 ---
 
 <div class="row">
