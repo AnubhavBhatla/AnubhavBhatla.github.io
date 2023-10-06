@@ -37,7 +37,3 @@ Research Groups:
 * [CPS](http://www.ee.iitb.ac.in/~stallur/contact/) - Cyber-Physical Systems Lab - Prof. Siddharth Tallur
 
 ---------------------
-
-Please find my CV [here](https://anubhavbhatla.github.io/files/CV.pdf) _(last updated on 20th July 2023)_
-
----------------------
