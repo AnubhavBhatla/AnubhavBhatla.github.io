@@ -2,9 +2,10 @@
 layout: page
 title: Secure Cache-Line Reallocation
 description: "Exploring the idea of preferentially re-allocating dead blocks for improving performance"
-img: assets/img/passp.jpg
+img: assets/img/passp.png
 importance: 2
 category: research
+related_publications: einstein1956investigations, einstein1950meaning
 ---
 
 <div class="row">
