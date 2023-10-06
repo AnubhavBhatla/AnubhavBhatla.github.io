@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Hardware-Efficient Secure Cache Design
+title: "Hardware-Efficient Secure Cache Design"
 description: "Proposed MAYA: A secure and storage-efficient fully-associative last-level cache design"
 img: assets/img/mirage.png
 importance: 1
-category: work
+category: research
 related_publications: einstein1956investigations, einstein1950meaning
 ---
 
