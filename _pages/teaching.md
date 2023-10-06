@@ -11,8 +11,7 @@ nav_order: 3
 ---------------
 
 # Teaching Assistant  
-Served as an undergraduate teaching assistant for a batch of 200+ students, with the responsibility of conducting doubt-solving sessions, and academically mentoring students over the duration of the following course:  
-* EE309: Microprocessors
+Served as an undergraduate teaching assistant for a batch of 200+ students, with the responsibility of conducting doubt-solving sessions, and academically mentoring students over the duration of the course _EE309: Microprocessors_
 
 ---------------
 ---------------
