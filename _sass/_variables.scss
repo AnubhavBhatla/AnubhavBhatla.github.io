@@ -13,6 +13,22 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
+/* system typefaces */
+$serif                      : Georgia, Times, serif;
+$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+
+/* sans serif typefaces */
+$sans-serif-narrow          : $sans-serif;
+$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+
+/* serif typefaces */
+$georgia                    : Georgia, serif;
+$times                      : Times, serif;
+$bodoni                     : "Bodoni MT", serif;
+$calisto                    : "Calisto MT", serif;
+$garamond                   : Garamond, serif;
+
 // Colors
 $red-color:           #FF3636 !default;
 $red-color-dark:      #B71C1C !default;
@@ -89,3 +105,9 @@ $code-bg-color-dark:      #2c3237 !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";
+
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$global-transition          : all 0.2s ease-in-out;
