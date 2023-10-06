@@ -1,26 +1,43 @@
 ---
-layout: about
-title: about
+layout: About
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Senior Year Undergraduate Student in the Department of Electrical Engineering, IIT Bombay
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>IIT Bombay, Powai</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey! I am Anubhav, a fourth-year undergraduate at the Department of the Electrical Engineering, IIT Bombay. I am pursuing a Bachelor of Technology in Electrical Engineering with Honours, and a Minor in Computer Science and Engineering.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am deeply interested in the research area of Computer Architecture, which involves a good mix of fascinating topics in Electrical and Computer Science. I am currently working on research topics in Microarchitectural security, which involves designing cache structures to ensure security against various side-channel attacks.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Outside of academics, I enjoy reading books (mostly fiction) and follow sports such as tennis, cricket, and badminton. I have also completed one year of training under the National Cadet Corps (NCC) at IIT Bombay.
+
+Research Interests:
+------------------
+* Computer Architecture
+* Microarchitectural Security
+* Digital Design
+* Microprocessors
+
+Research Groups:
+---------------
+* [CASPER](https://casper-iitb.github.io/) - Computer Architecture for Security and Performance Group - Prof. Biswabandan Panda
+* [CADSL](https://www.ee.iitb.ac.in/~cadsl/index.php) - Computer Architecture and Dependable Systems Lab - Prof. Virendra Singh
+* [CPS](http://www.ee.iitb.ac.in/~stallur/contact/) - Cyber-Physical Systems Lab - Prof. Siddharth Tallur
+
+---------------------
+
+Please find my CV [here](https://anubhavbhatla.github.io/files/CV.pdf) _(last updated on 20th July 2023)_
+
+---------------------
