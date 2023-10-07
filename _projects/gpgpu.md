@@ -4,7 +4,7 @@ title: General-Purpose GPUs
 description: 
 img: assets/img/gpgpu.png
 importance: 4
-category: research
+category: Reading Projects
 related_publications: adaptive
 ---
 
