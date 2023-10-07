@@ -2,7 +2,7 @@
 layout: page
 title: General-Purpose GPUs
 description: 
-img: assets/img/gpgpu.jpg
+img: assets/img/gpgpu.png
 importance: 4
 category: research
 related_publications: adaptive

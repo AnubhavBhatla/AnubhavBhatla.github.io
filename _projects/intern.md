@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Embedded Software Intern
+title: Embedded Software Internship
 description: Texas Instruments, India
 img: assets/img/ti.png
 importance: 1

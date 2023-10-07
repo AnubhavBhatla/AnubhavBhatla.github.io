@@ -2,7 +2,7 @@
 layout: page
 title: Freeflow
 description: 
-img: assets/img/freeway.jpg
+img: assets/img/freeway.png
 importance: 3
 category: research
 related_publications: freeflow, freeway
