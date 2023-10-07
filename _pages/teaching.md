@@ -33,6 +33,7 @@ Served as an undergraduate teaching assistant for a batch of 200+ students, with
 * [EE325](https://www.ee.iitb.ac.in/web/course_lists/ee-325-probability-and-random-processes/) - Probability and Random Processes
 * [EE341](https://www.ee.iitb.ac.in/web/course_lists/ee-341-communication-systems-i/) - Communication Systems - I
 * [EE350](https://www.ee.iitb.ac.in/web/course_lists/ee-350-technical-communication/) - Technical Communication
+* [EE491]() - B.Tech Project - I
 
 ### Lab Courses
 
@@ -79,6 +80,7 @@ Served as an undergraduate teaching assistant for a batch of 200+ students, with
 ## Department of Humanities and Social Sciences
 ---------------
 * [HS101](https://www.hss.iitb.ac.in/en/hs-101-economics) - Economics
+* [HS200](https://dampeeiitb.wordpress.com/hs200-2020/) - Environmental Studies
 * [HS307](https://dampiitbche.wordpress.com/course-reviews/minors-insti-electives/hs-307-sociology/) - Sociology
 
 ---------------
@@ -86,28 +88,36 @@ Served as an undergraduate teaching assistant for a batch of 200+ students, with
 
 # Electives
 
-## VLSI
----------------
-* [EE671](https://www.ee.iitb.ac.in/web/course_lists/ee-671-vlsi-design/) - VLSI Design
-* [EE677](https://www.ee.iitb.ac.in/web/course_lists/ee-677-foundations-of-vlsi-cad/) - Foundation of VLSI CAD
-
 ## Computer Architecture
 ---------------
 * [CS683](https://www.ee.iitb.ac.in/~viren/Courses/2015/CS683.htm) - Advanced Computer Architecture
 * [EE691]() - Research and Development Project
+* [EE748](https://www.ee.iitb.ac.in/~viren/Courses/2013/EE748.htm) - Advanced Topics in Computer Architecture
 
-## Communication and Information Theory
+## VLSI
 ---------------
-* [EE706](https://www.ee.iitb.ac.in/web/course_lists/ee-706-communication-networks/) - Communication Networks
-* [EE708](https://www.ee.iitb.ac.in/web/course_lists/ee-708-information-theory-and-coding/) - Information Theory and Coding
+* [EE618](https://www.ee.iitb.ac.in/web/course_lists/ee-618-cmos-analog-vlsi-design/) - CMOS Analog VLSI Design
+* [EE671](https://www.ee.iitb.ac.in/web/course_lists/ee-671-vlsi-design/) - VLSI Design
+* [EE677](https://www.ee.iitb.ac.in/web/course_lists/ee-677-foundations-of-vlsi-cad/) - Foundation of VLSI CAD
+
+## Algorithms
+---------------
+* [CS213](https://www.cse.iitb.ac.in/~ranade/cs213/) - Data Structures and Algorithms
+* [CS218](https://www.cse.iitb.ac.in/~rgurjar/CS218_2023/) - Design and Analysis of Algorithms
 
 ## Data Science and Artificial Intelligence
 ---------------
 * [DS203](https://www.minds.iitb.ac.in/index.php/academics/minor-ai-ds/2-uncategorised/20-ds-203) - Programming for Data Science
 * [DS303](https://www.minds.iitb.ac.in/academics/minor-ai-ds?id=22) - Introduction to Machine Learning
 
+## Communication and Information Theory
+---------------
+* [EE706](https://www.ee.iitb.ac.in/web/course_lists/ee-706-communication-networks/) - Communication Networks
+* [EE708](https://www.ee.iitb.ac.in/web/course_lists/ee-708-information-theory-and-coding/) - Information Theory and Coding
+
 ## Miscellaneous
 ---------------
-* [CS213](https://www.cse.iitb.ac.in/~ranade/cs213/) - Data Structures and Algorithms
 * [CS684](https://www.cse.iitb.ac.in/~cs684/) - Embedded Systems
 * [CS745](https://www.cse.iitb.ac.in/~cs745/) - Principles of Data and System Security
+* [EE746](https://www.ee.iitb.ac.in/web/course_lists/ee-746-neuromorphic-engineering/) - Neuromorphic Engineering
+* [EE789](https://www.ee.iitb.ac.in/web/course_lists/ee-789-algorithmic-design-of-digital-systems/) - Algorithmic Design of Digital Systems

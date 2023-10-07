@@ -6,7 +6,7 @@ subtitle: Senior Year Undergraduate Student in the Department of Electrical Engi
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <center>IIT Bombay, Powai</center>
