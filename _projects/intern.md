@@ -4,7 +4,7 @@ title: Embedded Software Internship
 description: Texas Instruments, India
 img: assets/img/ti.png
 importance: 1
-category: intern
+category: Internship
 ---
 
 Every project has a beautiful feature showcase page.
