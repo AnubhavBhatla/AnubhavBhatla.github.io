@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hey! I am Anubhav, a fourth-year undergraduate at the Department of the Electrical Engineering, IIT Bombay. I am pursuing a Bachelor of Technology in Electrical Engineering with Honors, and a Minor in Computer Science and Engineering.
+Hey! I am Anubhav, a fourth-year undergraduate at the Department of the Electrical Engineering, IIT Bombay. I am pursuing a Bachelor of Technology in Electrical Engineering with Honours, and a Minor in Computer Science and Engineering.
 
 I am deeply interested in the research area of Computer Architecture, which involves a good mix of fascinating topics in Electrical and Computer Science. I am currently working on research topics in Microarchitectural security, which involves designing cache structures to ensure security against various side-channel attacks.
 
