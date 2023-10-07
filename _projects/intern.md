@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Embedded Software Intern
+description: Texas Instruments, India
+img: assets/img/ti.png
+importance: 1
+category: intern
 ---
 
 Every project has a beautiful feature showcase page.

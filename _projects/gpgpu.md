@@ -1,20 +1,20 @@
 ---
 layout: page
-title: Freeflow
+title: General-Purpose GPUs
 description: 
-img: assets/img/freeway.jpg
-importance: 3
+img: assets/img/gpgpu.jpg
+importance: 4
 category: research
-related_publications: freeflow, freeway
+related_publications: adaptive
 ---
 
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">
-        {% include figure.html path="assets/img/passp.png" title="Freeway Core" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/passp.png" title="GP-GPU Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    An overview of the Freeway microarchitecture
+    An overview of GP-GPU Architecture
 </div>
 
 _Guide: [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/)_  
