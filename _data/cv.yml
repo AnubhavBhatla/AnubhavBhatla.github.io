@@ -25,16 +25,6 @@
       description:
         - "Bachelors in Technology (with Honours) in Electrical Engineering (CPI: 9.11)"
         - Minor Degree in Computer Science and Engineering
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
-    # - title: Federal teaching diploma
-    #   institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-    #   year: 1900
-    #   description:
-    #     - Description 1.
-    #     - Description 2.
 
 - title: Experience
   type: time_table
@@ -42,19 +32,16 @@
     - title: Embedded Software Intern
       institution: Texas Instruments, India
       year: 2023
-      # description:
-      #   - Description 1.
-      #   - Description 2.
 
 - title: Scholastic Achievements
   type: time_table
   contents:
     - year: 2023
-      items: 
+      items:
         - Awarded the Undergraduate Research Award
 
     - year: 2020
-      items: 
+      items:
         - Secured All India Rank 266 in Joint Entrance Examination, JEE (Advanced) among 160 thousand candidates
         - Acquired All India Rank 490 in Joint Entrance Examination, JEE (Mains) among 1.1 million candidates
         - Secured Top 250 rank among 300 thousand candidates in the Bits Pilani entrance examination (BITSAT)
