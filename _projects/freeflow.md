@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Freeflow
-description: 
+title: High-Performance and Energy-Efficient In-Order Cores
+description: "Implementing the Freeflow and Freeway in-order core designs which help increase performance and energy efficiency"
 img: assets/img/freeway.png
 importance: 3
 category: research
