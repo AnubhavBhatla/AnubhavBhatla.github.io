@@ -1,8 +1,8 @@
 ---
 layout: page
 title: VLSI Circuit Design
-description: 
-img: assets/img/vlsi.jpeg
+description:
+img: assets/img/vlsi.jpg
 importance: 3
 category: "Technical Projects"
 related_publications:
