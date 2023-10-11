@@ -1,7 +1,7 @@
 ---
 layout: page
 title: VLSI Circuit Partitioning Techniques
-description: 
+description: Implemented and analyzed graph partitioning algorithms and heuristics
 img: assets/img/partitioning.jpeg
 importance: 5
 category: "Technical Projects"
