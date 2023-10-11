@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Superscalar Processor Design
+title: EEG Data Acquistion System
 description: Designed a 2-way fetch out-of-order superscalar processor in VHDL
 img: assets/img/eeg.png
 importance: 2
