@@ -31,7 +31,7 @@ Research Interests:
 * Microprocessors
 
 In pursuit of these interests, I have been a part of the following research groups:
----------------
+
 * [CASPER](https://casper-iitb.github.io/) - Computer Architecture for Security and Performance Group - [Prof. Biswabandan Panda](https://www.cse.iitb.ac.in/~biswa/)
 * [CADSL](https://www.ee.iitb.ac.in/~cadsl/index.php) - Computer Architecture and Dependable Systems Lab - [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/)
 * [CPS](http://www.ee.iitb.ac.in/~stallur/contact/) - Cyber-Physical Systems Lab - [Prof. Siddharth Tallur](https://www.ee.iitb.ac.in/web/people/siddharth-tallur/)
