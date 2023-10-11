@@ -5,7 +5,7 @@ description:
 img: assets/img/vlsi.jpeg
 importance: 3
 category: "Technical Projects"
-related_publications: brent-kung dadda
+related_publications:
 ---
 
 <center>
@@ -15,9 +15,9 @@ related_publications: brent-kung dadda
     </div>
 </div>
 </center>
-<!-- <div class="caption">
+<div class="caption">
     Overview of the designed EEG data acquistion system
-</div> -->
+</div>
 
 _Guide: [Prof. Dinesh Sharma](https://www.ee.iitb.ac.in/wiki/faculty/dinesh)_
 

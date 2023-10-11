@@ -15,9 +15,9 @@ related_publications:
     </div>
 </div>
 </center>
-<!-- <div class="caption">
-    Overview of the designed EEG data acquistion system
-</div> -->
+<div class="caption">
+    Overview of a 2-stage Operational Transconductance Amplifier
+</div>
 
 _Guide: [Prof. Rajesh Zele](http://www.ee.iitb.ac.in/~zelerajesh/index.php)_
 
