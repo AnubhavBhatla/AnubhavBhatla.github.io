@@ -8,6 +8,7 @@ category: research
 related_publications: passp, ucp
 ---
 
+<center>
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">
         {% include figure.html path="assets/img/passp.png" title="PASS-P Re-allocation Scheme" class="img-fluid rounded z-depth-1" %}
@@ -16,6 +17,7 @@ related_publications: passp, ucp
 <div class="caption">
     An overview of PASS-P
 </div>
+</center>
 
 _Guide: [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/)_  
 

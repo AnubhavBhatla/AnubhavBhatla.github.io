@@ -8,6 +8,7 @@ category: research
 related_publications: mirage
 ---
 
+<center>
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">
         {% include figure.html path="assets/img/mirage.png" title="MIRAGE cache design" class="img-fluid rounded z-depth-1" %}
@@ -16,6 +17,7 @@ related_publications: mirage
 <div class="caption">
     An overview of the MIRAGE cache design
 </div>
+</center>
 
 _Guide: [Prof. Biswabandan Panda](https://www.cse.iitb.ac.in/~biswa/)_  
 

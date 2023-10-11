@@ -8,11 +8,13 @@ category: research
 related_publications: freeflow, freeway
 ---
 
+<center>
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">
         {% include figure.html path="assets/img/freeway.png" title="Freeway Core" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
 <div class="caption">
     An overview of the Freeway microarchitecture
 </div>

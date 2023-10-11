@@ -8,11 +8,13 @@ category: "Technical Projects"
 related_publications: brent-kung dadda
 ---
 
+<center>
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">
         {% include figure.html path="assets/img/vlsi.jpeg" title="EEG Data Acquisition System" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
 <!-- <div class="caption">
     Overview of the designed EEG data acquistion system
 </div> -->
