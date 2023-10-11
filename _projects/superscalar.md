@@ -8,6 +8,7 @@ category: "Technical Projects"
 related_publications:
 ---
 
+<center>
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">
         {% include figure.html path="assets/img/superscalar.png" title="Superscalar Processor" class="img-fluid rounded z-depth-1" %}
@@ -16,6 +17,7 @@ related_publications:
 <div class="caption">
     Overview of a Superscalar processor pipeline
 </div>
+</center>
 
 _Guide: [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/)_  
 
