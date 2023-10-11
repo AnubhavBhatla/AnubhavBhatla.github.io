@@ -4,7 +4,7 @@ title: General-Purpose GPUs
 description: Evaluating an adaptive LLC caching scheme for general-purpose GPUs
 img: assets/img/gpgpu_cover.png
 importance: 1
-category: Reading Projects
+category: "Reading Projects"
 related_publications: adaptive
 ---
 

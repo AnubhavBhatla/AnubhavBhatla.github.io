@@ -4,7 +4,7 @@ title: Superscalar Processor Design
 description: Designed a 2-way fetch out-of-order superscalar processor in VHDL
 img: assets/img/eeg.png
 importance: 2
-category: Technical Projects
+category: "Technical Projects"
 related_publications:
 ---
 

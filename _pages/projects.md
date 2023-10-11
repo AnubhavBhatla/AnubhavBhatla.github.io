@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 3
 horizontal: true
-display_categories: [Internship, Technical Projects, Reading Projects]
+display_categories: [Internship, "Technical Projects", "Reading Projects"]
 ---
 
 <!-- pages/projects.md -->
