@@ -11,7 +11,7 @@ related_publications:
 <center>
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">
-        {% include figure.html path="assets/img/cmos.png" title="CMOS VLSI Design" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ota.png" title="CMOS VLSI Design" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
