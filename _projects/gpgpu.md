@@ -1,8 +1,8 @@
 ---
 layout: page
 title: General-Purpose GPUs
-description: 
-img: assets/img/gpgpu.png
+description: Evaluating an adaptive LLC caching scheme for general-purpose GPUs
+img: assets/img/gpgpu_cover.png
 importance: 4
 category: Reading Projects
 related_publications: adaptive
@@ -19,7 +19,6 @@ related_publications: adaptive
 
 _Guide: [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/)_  
 
-I worked on this project as part of a Summer Project with Prof. Virendra Singh. I had been tasked with understanding and implementing an Adaptive decoupled last-level cache design for general-purpose GPUs. Since GPUs were a new topic for me at the time, I studied and reviewed the 
-Studied and reviewed the SIMT Core, Memory systems and the programming model related to GP-GPU architecture. I also reviewd literature about leveraging Adaptive last-level caching and implementing it on the GPGPU-Sim simulator. I also performed various benchamrk simulations on the simulator and carefully analyzed the outputs received.
+I worked on this project as part of a Summer Project with Prof. Virendra Singh. I had been tasked with understanding and implementing an Adaptive decoupled last-level cache design for general-purpose GPUs. Since GPUs were a new topic for me at the time, I studied and reviewed the SIMT core, memory systems and the programming model related to GP-GPU architecture. I also reviewed literature about leveraging Adaptive last-level caching and implementing it on the GPGPU-Sim simulator. I also performed various benchamrk simulations on the simulator and carefully analyzed the outputs received.
 
 [Report](https://anubhavbhatla.github.io/assets/pdf/GPGPU_Report.pdf){: .btn--report}
