@@ -1,7 +1,7 @@
 ---
 layout: page
 title: EEG Data Acquistion System
-description: Designed a 2-way fetch out-of-order superscalar processor in VHDL
+description: Designed a 24-channel data acquisition system for capturing EEG signals
 img: assets/img/eeg.png
 importance: 2
 category: "Technical Projects"
