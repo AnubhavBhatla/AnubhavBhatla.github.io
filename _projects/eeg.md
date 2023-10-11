@@ -2,7 +2,7 @@
 layout: page
 title: EEG Data Acquistion System
 description: Designed a 24-channel data acquisition system for capturing EEG signals
-img: assets/img/eeg.png
+img: assets/img/eeg.jpg
 importance: 2
 category: "Technical Projects"
 related_publications:
