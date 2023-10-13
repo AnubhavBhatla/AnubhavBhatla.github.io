@@ -23,4 +23,4 @@ _Guide: [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/)_
 
 This was a course project as part of the course CS683: Advanced Computer Architecture taught by Prof. Virendra Singh. The project involved designing a 2-way fetch OoO Superscalar processor, capable of running a Turing-complete ISA of 17 instructions. The architecture was complete with key components such as the Reservation Station, Reorder Buffer, Execution pipelines, Register Renaming, and the Memory System, all implemented in VHDL. My team conducted thorough software testing for all 17 instructions using GHDL and GTKWave simulations, and a custom testbench. We also created an Assembler and a Bootloader in Python to ease the process of dumping user instructions into the memory of the processor.
 
-[GitHub](https://github.com/AnubhavBhatla/Superscalar-Processor){: .btn--github}
+| [GitHub](https://github.com/AnubhavBhatla/Superscalar-Processor){: .btn--github} |

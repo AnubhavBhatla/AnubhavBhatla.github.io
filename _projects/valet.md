@@ -23,4 +23,4 @@ _Guides: [Prof. Paritosh Pandya](https://www.cse.iitb.ac.in/~pandya58/) and [Pro
 
 This was a course project as part of the course CS684: Embedded Systems taught by Prof. Paritosh Pandya and Prof. Kavi Arya. For this project, we were tasked with building a line follower bot, capable of avoiding obstacles and parking itself in an empty location in a marked region. A valet parking bot! We interfaced various tracker sensors, proximity sensors, and position encoders using the Arduino board present on the Alphabot, used for the project. All the required algorithms for line following, obstacle avoidance, and parking using the Heptagon language. The controller was programmed in Embedded C, and used to set up sensors and motor drivers, and interface with the Heptagon code.
 
-[GitHub](https://github.com/AnubhavBhatla/Valet-Parking-Bot){: .btn--github}
+| [GitHub](https://github.com/AnubhavBhatla/Valet-Parking-Bot){: .btn--github} |

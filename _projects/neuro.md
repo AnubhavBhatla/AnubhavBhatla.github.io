@@ -21,6 +21,4 @@ related_publications:
 
 _Guide: [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/)_  
 
-This was a course project as part of the course EE677: Foundation of VLSI CAD taught by Prof. Virendra Singh. The project involved implementing graph partitioning algorithms and heuristics like the Kernighan-Lin Algorithm, Clustering Based Heuristic, Hagen Kahng EIG Algorithm and comparing their capability in partitioning a given graph network into two partitions. We also visualise them using plotting tools of matplotlib and networkx Python libraries.
 
-[Report](https://anubhavbhatla.github.io/assets/pdf/Partitioning_Report.pdf){: .btn--report} | [GitHub](https://github.com/AnubhavBhatla/vlsi-circuit-partitioning-algorithms){: .btn--github}

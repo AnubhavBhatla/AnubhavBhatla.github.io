@@ -23,4 +23,4 @@ _Guide: [Prof. Dinesh Sharma](https://www.ee.iitb.ac.in/wiki/faculty/dinesh)_
 
 We were tasked with multiple assignments throughout the duration of the course EE671: VLSI Design taught by Prof. Dinesh Sharma. The assignments covered designing and implementing logic gates using various design styles: CMOS, pseudo-nMOS, CVSL, and CPL, in VHDL and analyzing the output voltage characteristics. I also implemented a 16-bit Brent Kung adder logarithmic fast adder in VHDL and validated the design using ModelSim simulations. The final task was to utilize the Dadd reduction algorithm to optimize the efficiency of a 16-bit Multiply-and-Accumulate circuit.
 
-[GitHub](https://github.com/AnubhavBhatla/VLSI-Design){: .btn--github}
+| [GitHub](https://github.com/AnubhavBhatla/VLSI-Design){: .btn--github} |

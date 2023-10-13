@@ -23,4 +23,4 @@ _Guide: [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/)_
 
 This was a course project as part of the course EE309: Microprocessors taught by Prof. Virendra Singh. The project involved designing a 6-stage Pipelined processor, capable of running a Turing-complete ISA of 17 instructions. Ours was one of the few teams to optimize the processor using hazard mitigation techniques, forwarding logic, and branch prediction techniques. We also performed software testing for all the instructions using the Intel Quartus Environment and the ModelSim HDL simulator.
 
-[GitHub](https://github.com/AnubhavBhatla/IITB-RISC-22){: .btn--github}
+| [GitHub](https://github.com/AnubhavBhatla/IITB-RISC-22){: .btn--github} |
