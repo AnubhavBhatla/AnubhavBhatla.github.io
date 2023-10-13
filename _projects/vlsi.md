@@ -11,12 +11,12 @@ related_publications:
 <center>
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">
-        {% include figure.html path="assets/img/dadda.png" title="EEG Data Acquisition System" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/dadda.png" title="Dadda Multiplier" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
 <div class="caption">
-    Overview of the designed EEG data acquistion system
+    Overview of the designed Dadda reduction scheme
 </div>
 
 _Guide: [Prof. Dinesh Sharma](https://www.ee.iitb.ac.in/wiki/faculty/dinesh)_
