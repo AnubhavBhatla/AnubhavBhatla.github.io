@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hey! I am Anubhav, a fourth-year undergraduate at the Department of the Electrical Engineering, IIT Bombay. I am pursuing a Bachelor of Technology in Electrical Engineering with Honours, and a Minor in Computer Science and Engineering.
 
-I am deeply interested in the research area of Computer Architecture, which involves a good mix of fascinating topics in Electrical and Computer Science. I am currently working on research topics in Microarchitectural security, which involves designing cache structures to ensure security against various side-channel attacks.
+I am deeply interested in the research area of Computer Architecture, which involves a good mix of fascinating topics in Electrical and Computer Science. I am currently working on research topics in Microarchitectural Security, which involves designing cache structures to ensure security against various side-channel attacks.
 
 Outside of academics, I enjoy reading books (mostly fiction) and follow sports such as tennis, cricket, and badminton. I have also completed one year of training under the National Cadet Corps (NCC) at IIT Bombay.
 
@@ -28,7 +28,6 @@ Research Interests:
 * Computer Architecture
 * Microarchitectural Security
 * Digital Design
-* Microprocessors
 
 In pursuit of these interests, I have been a part of the following research groups:
 
