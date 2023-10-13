@@ -1207,7 +1207,7 @@ nav[data-toggle="toc"] {
   &--github {
     display: inline-block;
     margin-bottom: 0em;
-    padding: 0.125em 0.125em;
+    padding: 0.125em 0.125em 0.125em 0.125em;
     color: $github-color;
     text-align: center;
     text-decoration: none !important;
@@ -1215,6 +1215,7 @@ nav[data-toggle="toc"] {
     border-color: $github-color;
     border-radius: $border-radius;
     font-size: $type-size-5;
+    font-weight: bold;
     cursor: pointer;
 
     &:link {
@@ -1242,7 +1243,7 @@ nav[data-toggle="toc"] {
   &--slides {
     display: inline-block;
     margin-bottom: 0em;
-    padding: 0.125em 0.125em;
+    padding: 0.125em 0.125em 0.125em 0.125em;
     color: $danger-color;
     text-align: center;
     text-decoration: none !important;
@@ -1250,6 +1251,7 @@ nav[data-toggle="toc"] {
     border-color: $danger-color;
     border-radius: $border-radius;
     font-size: $type-size-5;
+    font-weight: bold;
     cursor: pointer;
 
     &:link {
@@ -1277,7 +1279,7 @@ nav[data-toggle="toc"] {
   &--report {
     display: inline-block;
     margin-bottom: 0em;
-    padding: 0.125em 0.125em;
+    padding: 0.125em 0.125em 0.125em 0.125em;
     color: $report-color;
     text-align: center;
     text-decoration: none !important;
@@ -1285,6 +1287,7 @@ nav[data-toggle="toc"] {
     border-color: $report-color;
     border-radius: $border-radius;
     font-size: $type-size-5;
+    font-weight: bold;
     cursor: pointer;
 
     &:link {
@@ -1312,7 +1315,7 @@ nav[data-toggle="toc"] {
   &--youtube {
     display: inline-block;
     margin-bottom: 0em;
-    padding: 0.125em 0.125em;
+    padding: 0.125em 0.125em 0.125em 0.125em;
     color: $youtube-color;
     text-align: center;
     text-decoration: none !important;
@@ -1320,6 +1323,7 @@ nav[data-toggle="toc"] {
     border-color: $youtube-color;
     border-radius: $border-radius;
     font-size: $type-size-5;
+    font-weight: bold;
     cursor: pointer;
 
     &:link {
