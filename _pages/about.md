@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Senior Year Undergraduate, Electrical Engineering, IIT Bombay
+subtitle: Senior Undergraduate, Electrical Engineering, IIT Bombay
 
 profile:
   align: right
