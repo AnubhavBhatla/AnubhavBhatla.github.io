@@ -1,7 +1,7 @@
 ---
 layout: page
 title: VLSI Circuit Design
-description:
+description: Implementing various digital circuit designs in VHDL
 img: assets/img/vlsi.jpg
 importance: 3
 category: "Technical Projects"
