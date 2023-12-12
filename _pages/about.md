@@ -35,5 +35,3 @@ In pursuit of these interests, I have been a part of the following research grou
 * [AIMS](http://www.ee.iitb.ac.in/~stallur/index.php/) - Applied Integrated Micro Systems Lab - [Prof. Siddharth Tallur](https://www.ee.iitb.ac.in/web/people/siddharth-tallur/)
 
 ---------------------
-
-Here is a [link](https://anubhavbhatla.github.io/assets/pdf/CV.pdf) to my CV.
