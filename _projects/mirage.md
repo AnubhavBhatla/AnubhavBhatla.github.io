@@ -21,5 +21,5 @@ related_publications: mirage
 
 _Guide: [Prof. Biswabandan Panda](https://www.cse.iitb.ac.in/~biswa/)_  
 
-The MIRAGE cache is a secure fully-associative last-level cache design which guarantees complete security against eviction-based side-channel attacks, but at a hefty hardware overhead of 17%. We propose MAYA, which guarantees the same level of security, and at no hardware overhead compared to a non-secure baseline. We are also able to save around 6% in terms of energy and area compared to the baseline.
+MIRAGE is a secure fully-associative last-level cache design which guarantees complete security against eviction-based side-channel attacks, but at a hefty hardware overhead of 17%. We propose MAYA, which guarantees the same level of security, and at no hardware overhead compared to a non-secure baseline. We are also able to save around 6% in terms of energy and area compared to the baseline.
 
