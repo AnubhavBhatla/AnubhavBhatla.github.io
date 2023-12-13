@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spiking Equilibrium Propagation for Real-time Learning
-description: 
+description: Implemented the Equi-Prop system using 45nm CMOS technology
 img: assets/img/neuro.webp
 importance: 5
 category: "Technical Projects"
