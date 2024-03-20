@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Maya Cache accepted to appear at the International Symposium on Computer Architecture (ISCA'24) to be held in Buenos Aires, Argentina.
