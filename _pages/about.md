@@ -6,7 +6,7 @@ subtitle: Senior Undergraduate, Electrical Engineering, IIT Bombay
 
 profile:
   align: right
-  image: Photo.jpg
+  image: Photo_Formal.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <center>IIT Bombay, Powai</center>
