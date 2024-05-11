@@ -31,6 +31,7 @@ Served as an undergraduate teaching assistant for a batch of 200+ students, with
 * [EE302](https://www.ee.iitb.ac.in/web/course_lists/ee-302-control-systems/) - Control Systems
 * [EE309](https://www.ee.iitb.ac.in/web/course_lists/ee-309-microprocessors/) - Microprocessors
 * [EE325](https://www.ee.iitb.ac.in/web/course_lists/ee-325-probability-and-random-processes/) - Probability and Random Processes
+* [EE338](https://www.ee.iitb.ac.in/web/course_lists/ee-338-digital-signal-processing/) - Digital Signal Processing
 * [EE341](https://www.ee.iitb.ac.in/web/course_lists/ee-341-communication-systems-i/) - Communication Systems - I
 * [EE350](https://www.ee.iitb.ac.in/web/course_lists/ee-350-technical-communication/) - Technical Communication
 * [EE491]() - B.Tech Project - I
@@ -45,6 +46,7 @@ Served as an undergraduate teaching assistant for a batch of 200+ students, with
 * [EE337](https://www.ee.iitb.ac.in/web/course_lists/ee-337-microprocessor-laboratory/) - Microprocessors Lab
 * [EE340](https://www.ee.iitb.ac.in/web/course_lists/ee-340-communications-laboratory/) - Communications Lab
 * [EE344](https://www.ee.iitb.ac.in/web/course_lists/ee-344-electronic-design-lab/) - Elecronic Design Lab
+* [EE462](http://sharada.ee.iitb.ac.in/~ee352/) - Digital Signal Processing Software and Hardware Lab
 
 ## Department of Computer Science and Engineering
 ---------------
@@ -97,11 +99,15 @@ Served as an undergraduate teaching assistant for a batch of 200+ students, with
 ## VLSI
 ---------------
 * [EE618](https://www.ee.iitb.ac.in/web/course_lists/ee-618-cmos-analog-vlsi-design/) - CMOS Analog VLSI Design
+* [EE619](https://www.ee.iitb.ac.in/web/course_lists/ee-619-rf-microelectronics-chip-design/) - Radio Frequency Microelectronics Chip Design
 * [EE671](https://www.ee.iitb.ac.in/web/course_lists/ee-671-vlsi-design/) - VLSI Design
 * [EE677](https://www.ee.iitb.ac.in/web/course_lists/ee-677-foundations-of-vlsi-cad/) - Foundation of VLSI CAD
+* [EE705](https://www.ee.iitb.ac.in/web/course_lists/ee-705-vlsi-design-lab/) - VLSI Design Lab
+* [EE709](https://www.ee.iitb.ac.in/web/course_lists/ee-709-testing-and-verification-of-vlsi-circuits/) - Testing and Verification of VLSI Circuits
 
 ## Algorithms
 ---------------
+* [CS207](https://www.cse.iitb.ac.in/~mp/teach/ds/aut20/) - Discrete Structures
 * [CS213](https://www.cse.iitb.ac.in/~ranade/cs213/) - Data Structures and Algorithms
 * [CS218](https://www.cse.iitb.ac.in/~rgurjar/CS218_2023/) - Design and Analysis of Algorithms
 
@@ -114,10 +120,12 @@ Served as an undergraduate teaching assistant for a batch of 200+ students, with
 ---------------
 * [EE706](https://www.ee.iitb.ac.in/web/course_lists/ee-706-communication-networks/) - Communication Networks
 * [EE708](https://www.ee.iitb.ac.in/web/course_lists/ee-708-information-theory-and-coding/) - Information Theory and Coding
+* [EE764](https://www.ee.iitb.ac.in/~bsraj/courses/ee764/) - Wireless & Mobile Communication
 
 ## Miscellaneous
 ---------------
 * [CS684](https://www.cse.iitb.ac.in/~cs684/) - Embedded Systems
 * [CS745](https://www.cse.iitb.ac.in/~cs745/) - Principles of Data and System Security
+* [EE724](https://www.ee.iitb.ac.in/web/course_lists/ee-724-nanoelectronics/) - Nanoelectronics
 * [EE746](https://www.ee.iitb.ac.in/web/course_lists/ee-746-neuromorphic-engineering/) - Neuromorphic Engineering
 * [EE789](https://www.ee.iitb.ac.in/web/course_lists/ee-789-algorithmic-design-of-digital-systems/) - Algorithmic Design of Digital Systems
