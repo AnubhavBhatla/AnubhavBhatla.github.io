@@ -3,7 +3,7 @@ layout: page
 title: RUL Estimation for EV Batteries
 description: Estimated the Remaining Useful Life of Li-ion EV batteries with an R2 score of 98.09
 img: assets/img/ev.jpg
-importance: 9
+importance: 10
 category: "Technical Projects"
 related_publications: xgboost
 ---

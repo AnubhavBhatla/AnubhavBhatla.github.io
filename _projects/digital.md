@@ -3,7 +3,7 @@ layout: page
 title: Digital Circuit Design
 description: Estimated the Remaining Useful Life of Li-ion EV batteries with an R2 score of 98.09
 img: assets/img/digital.webp
-importance: 10
+importance: 11
 category: "Technical Projects"
 related_publications:
 ---

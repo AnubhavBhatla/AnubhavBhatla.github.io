@@ -3,7 +3,7 @@ layout: page
 title: Microprocessor Implementations
 description: Estimated the Remaining Useful Life of Li-ion EV batteries with an R2 score of 98.09
 img: assets/img/micro.png
-importance: 11
+importance: 12
 category: "Technical Projects"
 related_publications:
 ---
