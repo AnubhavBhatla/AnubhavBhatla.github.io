@@ -19,7 +19,7 @@ related_publications:
     Dual-Band Elliptical Filter
 </div>
 
-_Guides: [Prof. Amit Sethi](https://www.ee.iitb.ac.in/~asethi/)_  
+_Guides: [Prof. Vikram Gadre](https://www.ee.iitb.ac.in/wiki/faculty/vmgadre)_  
 
 This was a course project as part of the course EE338: Digital Signal Processing taught by Prof. Vikram Gadre. We were required to design and implement a dual-band filter using Butterworth, Chebyshev, Elliptical, and FIR filter design techniques. We also made a comparion of these design techniques based on their order, transition width, passband, stopband, and phase response.
 
