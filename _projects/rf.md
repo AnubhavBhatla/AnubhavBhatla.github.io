@@ -24,4 +24,4 @@ _Guide: [Prof. Rajesh Zele](http://www.ee.iitb.ac.in/~zelerajesh/index.php)_
 I worked on this project as part of the course EE619: RF Microelectronics Chip Design taken by Prof. Rajesh Zele. To get us familiarized with Virtuoso, we were tasked with design the schematic for a Common-Source LNA in UMC 65nm technology with the given specifications.
 The final project was to design and simulate a Cross-coupled Voltage-controlled Oscillator for the given parameters of frequency, phase noise, $K_{VCO}$, voltage swing, and power dissipation. The final layout for the OTA had a 1.08V swing, $K_{VCO}$ of 61MHz/V, 28MHz tuning range, and a phase noise of -117dBc/Hz at a 1MHz relative frequency.
 
-&nbsp;&nbsp;&nbsp;&nbsp; [Report](https://anubhavbhatla.github.io/assets/pdf/EE619_report.pdf){: .btn--report}
+&nbsp;&nbsp;&nbsp;&nbsp; [Report](https://anubhavbhatla.github.io/assets/pdf/EE619_Report.pdf){: .btn--report}
