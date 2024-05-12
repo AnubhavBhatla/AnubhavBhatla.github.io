@@ -3,7 +3,7 @@ layout: page
 title: RISC Processor Design
 description: Designed and implemented 16-bit 6-stage pipelined processor in VHDL
 img: assets/img/risc.png
-importance: 7
+importance: 9
 category: "Technical Projects"
 related_publications:
 ---

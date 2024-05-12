@@ -3,7 +3,7 @@ layout: page
 title: Valet Parking Bot
 description: Built a line-follower bot, capable of obstacle-avoidance and parking using the Arduino-UNO based Alphabot
 img: assets/img/valet.jpg
-importance: 8
+importance: 10
 category: "Technical Projects"
 related_publications:
 ---

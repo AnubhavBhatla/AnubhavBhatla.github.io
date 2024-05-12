@@ -3,7 +3,7 @@ layout: page
 title: Dual-Band Filter Design
 description: Designed Butterworth, Chebyshev, Elliptical and FIR Filters for given specifications
 img: assets/img/dsp.png
-importance: 9
+importance: 11
 category: "Technical Projects"
 related_publications: 
 ---
