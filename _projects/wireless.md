@@ -19,7 +19,7 @@ related_publications:
     Overview of error-correction mechanism in FSK
 </div>
 
-_Guides: [Prof. Sibi Raj Pillai]()_  
+_Guides: [Prof. Sibi Raj Pillai](https://www.ee.iitb.ac.in/wiki/faculty/bsraj)_  
 
 This was a course project as part of the course EE764: Wireless and Mobile Communication taught by Prof. Sibi Raj Pillai. I implemented an error correction mechnaism using convolutional codes as part of the FSK flow. I successfully tested its effectiveness when a Gaussian noise is artificially inserted into the channel. Without error correction, BER went above -6 for a noise amplitude of 0.6, and with error correction, BER stayed below -6 even for a 1.1 noise amplitude.
 
