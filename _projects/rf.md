@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Cross-coupled Voltage-controlled Oscillator Design
+title: Cross-coupled VCO Design
 description: Designed a Cross-coupled Voltage-controlled Oscillator for the specified parameters and implemented it using Cadence Virtuoso
 img: assets/img/rf.jpg
-importance: 4
+importance: 5
 category: "Technical Projects"
 related_publications:
 ---

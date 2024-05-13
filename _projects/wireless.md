@@ -3,7 +3,7 @@ layout: page
 title: Error Correction in FSK
 description: Implemented an Error-correction mechanism in FSK using Convolutional codes
 img: assets/img/wireless.jpeg
-importance: 11
+importance: 12
 category: "Technical Projects"
 related_publications: 
 ---

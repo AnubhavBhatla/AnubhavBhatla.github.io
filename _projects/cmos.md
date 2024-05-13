@@ -3,7 +3,7 @@ layout: page
 title: 2-stage OTA Design
 description: Designed a 2-stage Operational Transconductance Amplifier for the specified parameters and implemented it using Cadence Virtuoso
 img: assets/img/cmos.png
-importance: 5
+importance: 6
 category: "Technical Projects"
 related_publications:
 ---

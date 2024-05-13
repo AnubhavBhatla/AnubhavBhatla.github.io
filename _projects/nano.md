@@ -3,7 +3,7 @@ layout: page
 title: Optimum Device Design for NIPIN Selector
 description: Performed experiments on the NIPIN device by varying i-region widths, temperature an introducing SiGe in the p-region
 img: assets/img/nano.webp
-importance: 6
+importance: 7
 category: "Technical Projects"
 related_publications: sub02, nipin
 ---
