@@ -31,7 +31,8 @@ Research Interests:
 In pursuit of these interests, I have been a part of the following research groups:
 
 * [CASPER](https://casper-iitb.github.io/) - Computer Architecture for Security and Performance Group - [Prof. Biswabandan Panda](https://www.cse.iitb.ac.in/~biswa/)
+* [Memory Systems Lab](https://memlab.ece.gatech.edu) - [Prof. Moinuddin Qureshi](https://moin.cc.gatech.edu)
 * [CADSL](https://www.ee.iitb.ac.in/~cadsl/index.php) - Computer Architecture and Dependable Systems Lab - [Prof. Virendra Singh](https://www.ee.iitb.ac.in/~viren/)
-* [AIMS](http://www.ee.iitb.ac.in/~stallur/index.php/) - Applied Integrated Micro Systems Lab - [Prof. Siddharth Tallur](https://www.ee.iitb.ac.in/web/people/siddharth-tallur/)
+* [CY-PHY](http://www.ee.iitb.ac.in/~stallur/index.php/) - Cyber Physical Systems Lab - [Prof. Siddharth Tallur](https://www.ee.iitb.ac.in/web/people/siddharth-tallur/)
 
 ---------------------
