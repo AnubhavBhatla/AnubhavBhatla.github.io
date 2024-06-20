@@ -5,7 +5,7 @@ description: "Proposed the Maya Cache: A secure and storage-efficient fully-asso
 img: assets/img/maya.png
 importance: 2
 category: research
-related_publications: maya mirage
+related_publications: maya, mirage
 ---
 
 <center>
