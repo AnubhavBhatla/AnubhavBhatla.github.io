@@ -3,7 +3,7 @@ layout: page
 title: Secure Cache-Line Reallocation
 description: "Exploring the idea of preferentially re-allocating dead blocks for improving performance"
 img: assets/img/passp.png
-importance: 2
+importance: 3
 category: research
 related_publications: passp, ucp
 ---

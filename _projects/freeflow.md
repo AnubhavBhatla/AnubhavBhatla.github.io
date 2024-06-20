@@ -3,7 +3,7 @@ layout: page
 title: High-Performance and Energy-Efficient In-Order Cores
 description: "Implemented the Freeflow and Load-Slice in-order core designs which help increase performance and energy efficiency"
 img: assets/img/freeway.png
-importance: 3
+importance: 4
 category: research
 related_publications: freeflow, freeway, load_slice
 ---
