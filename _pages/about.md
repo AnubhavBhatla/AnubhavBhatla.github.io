@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: Senior Undergraduate, Electrical Engineering, IIT Bombay
-
+nav: false
 profile:
   align: right
   image: Photo_Formal.jpg
