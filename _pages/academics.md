@@ -4,14 +4,8 @@ permalink: /academics/
 title: Academics
 description:
 nav: true
-nav_order: 5
+nav_order: 6
 ---
-
----------------
----------------
-
-# Teaching Assistant  
-Served as an undergraduate teaching assistant for a batch of 200+ students, with the responsibility of conducting doubt-solving sessions, and academically mentoring students over the duration of the course _EE309: Microprocessors_
 
 ---------------
 ---------------
