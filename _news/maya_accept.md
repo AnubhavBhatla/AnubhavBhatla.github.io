@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Maya Cache accepted to appear at the International Symposium on Computer Architecture (ISCA'24) to be held in Buenos Aires, Argentina.
+Maya Cache has been accepted to appear at the International Symposium on Computer Architecture (ISCA'24) to be held in Buenos Aires, Argentina.
