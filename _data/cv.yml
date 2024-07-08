@@ -1,12 +1,7 @@
-- title: General Information
-  type: map
+- title: Anubhav Bhatla
+  type: list
   contents:
-    - name: Full Name
-      value: Anubhav Bhatla
-    - name: Date of Birth
-      value: 9th November 2001
-    - name: Languages
-      value: English, Hindi
+    -  You can download my CV [here](https://anubhavbhatla.github.io/assets/pdf/CV.pdf) (Last updated 20th May 2024)
 
 - title: Research Interests
   type: list
@@ -19,11 +14,12 @@
 - title: Education
   type: time_table
   contents:
-    - title: Bachelors
+    - title: Bachelor + Master of Technology
       institution: Indian Institute of Technology, Bombay
-      year: 2024
+      year: 2025
       description:
-        - "Bachelors in Technology (with Honours) in Electrical Engineering (CPI: 9.11)"
+        - "Integrated Bachelor + Master Technology in Electrical Engineering (CPI: 9.13)"
+        - Specialization in Electronic Systems
         - Minor Degree in Computer Science and Engineering
 
 - title: Experience
