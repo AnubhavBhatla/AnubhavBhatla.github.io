@@ -1,26 +1,26 @@
-- title: Anubhav Bhatla
-  type: list
-  contents:
-    -  You can download my CV [here](https://anubhavbhatla.github.io/assets/pdf/CV.pdf) (Last updated 20th May 2024)
-
 - title: Research Interests
   type: list
   contents:
-    - Computer Architecture
-    - Microarchitectural Security
-    - Digital Design
-    - Microprocessors
+    - "Computer Systems and Architecture"
+    - "Hardware Security"
 
 - title: Education
   type: time_table
   contents:
     - title: Bachelor + Master of Technology
       institution: Indian Institute of Technology, Bombay
-      year: 2025
+      year: "2020-2025"
       description:
         - "Integrated Bachelor + Master Technology in Electrical Engineering (CPI: 9.13)"
-        - Specialization in Electronic Systems
-        - Minor Degree in Computer Science and Engineering
+        - "Specialization in Electronic Systems"
+        - "Minor Degree in Computer Science and Engineering"
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: "The Maya Cache: A Storage-efficient and Secure Fully-associative Last-level Cache"
+      institution: International Symposium on Computer Architecture (ISCA)
+      year: 2024
 
 - title: Experience
   type: time_table
@@ -29,22 +29,22 @@
       institution: Texas Instruments, India
       year: 2023
 
-# - title: Scholastic Achievements
-#   type: time_table
-#   contents:
-    # -- year: 2023
-    #   items:
-    #     - Awarded the Undergraduate Research Award
-    # - year: 2020
-    #   items:
-    #     - Secured All India Rank 266 in Joint Entrance Examination, JEE (Advanced) among 160 thousand candidates
-    #     - Acquired All India Rank 490 in Joint Entrance Examination, JEE (Mains) among 1.1 million candidates
-    #     - Secured Top 250 rank among 300 thousand candidates in the Bits Pilani entrance examination (BITSAT)
-    #     - Received Certificate of Merit for exemplary performance in Class 12 CBSE Board examinations 
-    # -year: 2019
-    #   items:
-    #     - Qualified for the Indian National Olympiad (INO) in Astronomy, Chemistry & Physics
-    #     - Bagged a position among the Top 1% students nationally in NSEP & NSEA conducted by IAPT
-    # -year: 2018
-    #   items:
-    #     - Awarded the Kishore Vaigyanak Protsahan Yojana (KVPY) fellowship with All India Rank 337
+- title: Scholastic Achievements
+  type: time_table
+  contents:
+    -- year: 2023
+      items:
+        - Awarded the Undergraduate Research Award
+    - year: 2020
+      items:
+        - Secured All India Rank 266 in Joint Entrance Examination, JEE (Advanced) among 160 thousand candidates
+        - Acquired All India Rank 490 in Joint Entrance Examination, JEE (Mains) among 1.1 million candidates
+        - Secured Top 250 rank among 300 thousand candidates in the Bits Pilani entrance examination (BITSAT)
+        - Received Certificate of Merit for exemplary performance in Class 12 CBSE Board examinations 
+    -year: 2019
+      items:
+        - Qualified for the Indian National Olympiad (INO) in Astronomy, Chemistry & Physics
+        - Bagged a position among the Top 1% students nationally in NSEP & NSEA conducted by IAPT
+    -year: 2018
+      items:
+        - Awarded the Kishore Vaigyanak Protsahan Yojana (KVPY) fellowship with All India Rank 337

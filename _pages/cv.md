@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: CV
+title: Anubhav Bhatla
 nav: true
 nav_order: 7
 cv_pdf: CV.pdf
