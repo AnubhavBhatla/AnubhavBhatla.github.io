@@ -1,13 +1,11 @@
 {
-  "basics": [
-    {
+  "basics": {
     "name": "Anubhav Bhatla",
     "label": "Student in the Department of Electrical Engineering, IIT Bombay",
     "image": "",
     "email": "bhatlaanubhav2001@gmail.com",
     "phone": ""
-    }
-  ],
+  },
 
   "interests": [],
 
