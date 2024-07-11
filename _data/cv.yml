@@ -7,9 +7,9 @@
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor + Master of Technology
-      institution: Indian Institute of Technology, Bombay
-      year: "2020-2025"
+    - title: "Bachelor + Master of Technology"
+      institution: "Indian Institute of Technology, Bombay"
+      year: 2025
       description:
         - "Integrated Bachelor + Master Technology in Electrical Engineering (CPI: 9.13)"
         - "Specialization in Electronic Systems"
@@ -19,7 +19,7 @@
   type: time_table
   contents:
     - title: "The Maya Cache: A Storage-efficient and Secure Fully-associative Last-level Cache"
-      institution: International Symposium on Computer Architecture (ISCA)
+      institution: "International Symposium on Computer Architecture (ISCA)"
       year: 2024
 
 - title: Experience
