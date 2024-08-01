@@ -42,7 +42,7 @@
 #   contents:
 #     - year: 2023
 #       items:
--title: Awards
+- title: Awards
   type: list
   contents:
     - Undergraduate Research Award (IIT Bombay)
