@@ -19,16 +19,16 @@ nav_order: 6
 * [EE204](https://www.ee.iitb.ac.in/web/course_lists/ee-204-analog-circuits/) - Analog Circuits
 * [EE207](https://www.ee.iitb.ac.in/web/course_lists/ee-207-electronic-devices-and-circuits/) - Elecronic Devices and Circuits
 * [EE224](https://www.ee.iitb.ac.in/web/course_lists/ee-224-digital-systems/) - Digital Systems
-* [EE229](https://www.ee.iitb.ac.in/web/course_lists/ee-227-microelectronics/) - Signal Processing - I
+* [EE229](https://www.ee.iitb.ac.in/web/course_lists/ee-227-microelectronics/) - Signal Processing
 * [EE238](https://www.ee.iitb.ac.in/web/course_lists/ee-236-power-engineering-ii/) - Power Engineering - II
 * [EE301](https://www.ee.iitb.ac.in/web/course_lists/ee-301-electromagnetic-waves/) - Electromagnetic Waves
 * [EE302](https://www.ee.iitb.ac.in/web/course_lists/ee-302-control-systems/) - Control Systems
 * [EE309](https://www.ee.iitb.ac.in/web/course_lists/ee-309-microprocessors/) - Microprocessors
 * [EE325](https://www.ee.iitb.ac.in/web/course_lists/ee-325-probability-and-random-processes/) - Probability and Random Processes
 * [EE338](https://www.ee.iitb.ac.in/web/course_lists/ee-338-digital-signal-processing/) - Digital Signal Processing
-* [EE341](https://www.ee.iitb.ac.in/web/course_lists/ee-341-communication-systems-i/) - Communication Systems - I
+* [EE341](https://www.ee.iitb.ac.in/web/course_lists/ee-341-communication-systems-i/) - Communication Systems
 * [EE350](https://www.ee.iitb.ac.in/web/course_lists/ee-350-technical-communication/) - Technical Communication
-* [EE491]() - B.Tech Project - I
+* [EE491]() - B.Tech Project
 
 ### Lab Courses
 
@@ -39,7 +39,7 @@ nav_order: 6
 * [EE324](https://www.ee.iitb.ac.in/web/course_lists/ee-324-control-systems-laboratory/) - Control Systems Lab
 * [EE337](https://www.ee.iitb.ac.in/web/course_lists/ee-337-microprocessor-laboratory/) - Microprocessors Lab
 * [EE340](https://www.ee.iitb.ac.in/web/course_lists/ee-340-communications-laboratory/) - Communications Lab
-* [EE344](https://www.ee.iitb.ac.in/web/course_lists/ee-344-electronic-design-lab/) - Elecronic Design Lab
+* [EE344](https://www.ee.iitb.ac.in/web/course_lists/ee-344-electronic-design-lab/) - Electronic Design Lab
 * [EE462](http://sharada.ee.iitb.ac.in/~ee352/) - Digital Signal Processing Software and Hardware Lab
 
 ## Department of Computer Science and Engineering
@@ -84,11 +84,13 @@ nav_order: 6
 
 # Electives
 
-## Computer Architecture
+## Computer Systems
 ---------------
+* [CS347](https://www.cse.iitb.ac.in/~mythili/os/) - Operating Systems
 * [CS683](https://www.ee.iitb.ac.in/~viren/Courses/2015/CS683.htm) - Advanced Computer Architecture
 * [EE691]() - Research and Development Project
 * [EE748](https://www.ee.iitb.ac.in/~viren/Courses/2013/EE748.htm) - Advanced Topics in Computer Architecture
+* [ME766]() - High Performance Scientific Computing
 
 ## VLSI
 ---------------
