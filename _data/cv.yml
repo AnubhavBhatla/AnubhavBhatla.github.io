@@ -21,6 +21,9 @@
     - title: "The Maya Cache: A Storage-efficient and Secure Fully-associative Last-level Cache"
       institution: International Symposium on Computer Architecture (ISCA)
       year: 2024
+    - title: "OASIS: Enabling Provably Secure Randomized Caches at Ultra-Low Cost"
+      institution: International Symposium on High Performance Computer Architecture (HPCA)
+      year: 2025
 
 - title: Experience
   type: time_table
@@ -28,23 +31,41 @@
     - title: Embedded Software Intern
       institution: Texas Instruments, India
       year: 2023
+      items:
+        - Created a driver monitoring application for the AM62Ax Sitara processor using the GStreamer media framework
+        - Modified the existing GStreamer pipelines to enable stacking of multiple DNN models required for the application
+        - Analyzed the boot flow of various processors and created a boot loader porting guide for the Sitara AM62x processor
+        - Reviewed existing documentation and Linux examples for the AM62x & suggested changes to improve user experience
 
-# - title: Scholastic Achievements
-#   type: time_table
-#   contents:
-#     -- year: 2023
-#       items:
-#         - Awarded the Undergraduate Research Award
-#     - year: 2020
-#       items:
-#         - Secured All India Rank 266 in Joint Entrance Examination, JEE (Advanced) among 160 thousand candidates
-#         - Acquired All India Rank 490 in Joint Entrance Examination, JEE (Mains) among 1.1 million candidates
-#         - Secured Top 250 rank among 300 thousand candidates in the Bits Pilani entrance examination (BITSAT)
-#         - Received Certificate of Merit for exemplary performance in Class 12 CBSE Board examinations 
-#     -year: 2019
-#       items:
-#         - Qualified for the Indian National Olympiad (INO) in Astronomy, Chemistry & Physics
-#         - Bagged a position among the Top 1% students nationally in NSEP & NSEA conducted by IAPT
-#     -year: 2018
-#       items:
-#         - Awarded the Kishore Vaigyanak Protsahan Yojana (KVPY) fellowship with All India Rank 337
+- title: Scholastic Achievements
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - Awarded the Undergraduate Research Award by IIT Bombay for excellence in research and development
+    - year: 2020
+      items:
+        - Secured All India Rank 266 in Joint Entrance Examination, JEE (Advanced) among 160 thousand candidates
+        - Acquired All India Rank 490 in Joint Entrance Examination, JEE (Mains) among 1.1 million candidates
+        - Secured Top 250 rank among 300 thousand candidates in the Bits Pilani entrance examination (BITSAT)
+        - Received Certificate of Merit for exemplary performance in Class 12 CBSE Board examinations 
+    - year: 2019
+      items:
+        - Qualified for the Indian National Olympiad (INO) in Astronomy, Chemistry & Physics
+        - Bagged a position among the Top 1% students nationally in NSEP & NSEA conducted by IAPT
+    - year: 2018
+      items:
+        - Awarded the Kishore Vaigyanak Protsahan Yojana (KVPY) fellowship with All India Rank 337
+        
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Languages
+      items:
+        - C, C++, VHDL, Verilog, Python, Assembly, Heptagon
+    - title: Software
+      items: 
+        - Intel Quartus, Autodesk Fusion 360, GStreamer, Cadence Virtuoso, GHDL, Keil μVision, MATLAB, LTSpice, Ngspice, ArduinoIDE, GNU Radio, LATEX, AutoCAD, Solidworks
+    - title: Simulators
+      items:
+        - ChampSim, gem5, Sniper, GPGPU-Sim
