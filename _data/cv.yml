@@ -18,12 +18,12 @@
 - title: Publications
   type: time_table
   contents:
-    - title: "The Maya Cache: A Storage-efficient and Secure Fully-associative Last-level Cache"
-      institution: International Symposium on Computer Architecture (ISCA)
-      year: 2024
     - title: "OASIS: Enabling Provably Secure Randomized Caches at Ultra-Low Cost"
       institution: International Symposium on High Performance Computer Architecture (HPCA) (under review)
       year: 2025
+    - title: "The Maya Cache: A Storage-efficient and Secure Fully-associative Last-level Cache"
+      institution: International Symposium on Computer Architecture (ISCA)
+      year: 2024
 
 - title: Experience
   type: time_table

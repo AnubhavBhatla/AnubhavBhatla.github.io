@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Enabling Provably Secure Randomized Caches at Ultra-Low Cost"
-description: "Working on a randomized cache design which enables security with minimal additional complexity"
+title: "Practical and Secure Cache Design at Ultra-Low Cost"
+description: "Proposed the Oasis cache: A randomized cache design with minimal design complexity and ultra-low cost"
 img: assets/img/mirage.png
 importance: 1
 category: research
-related_publications: maya, mirage
+related_publications: oasis, maya, mirage
 ---
 
 <center>
