@@ -5,14 +5,16 @@ title: Academics
 description:
 nav: true
 nav_order: 6
+toc:
+  sidebar: true
 ---
 
 ---------------
 ---------------
 
-# Core Courses
+## Core Courses
 
-## Department of Electrical Engineering
+### Department of Electrical Engineering
 ---------------
 * [EE113](https://www.ee.iitb.ac.in/web/course_lists/ee-113-introduction-to-electrical-engineering-practice/) - Introduction to Electrical Engineering Practice
 * [EE114](https://www.ee.iitb.ac.in/web/course_lists/ee-114-power-engineering-i/) - Power Engineering - I
@@ -30,7 +32,7 @@ nav_order: 6
 * [EE350](https://www.ee.iitb.ac.in/web/course_lists/ee-350-technical-communication/) - Technical Communication
 * [EE491]() - B.Tech Project
 
-### Lab Courses
+#### Lab Courses
 
 * [EE214](https://www.ee.iitb.ac.in/web/course_lists/ee-214-digital-circuits-laboratory/) - Digital Circuits Lab
 * [EE230](https://www.ee.iitb.ac.in/web/course_lists/ee-230-analog-circuits-laboratory/) - Analog Lab
@@ -42,11 +44,11 @@ nav_order: 6
 * [EE344](https://www.ee.iitb.ac.in/web/course_lists/ee-344-electronic-design-lab/) - Electronic Design Lab
 * [EE462](http://sharada.ee.iitb.ac.in/~ee352/) - Digital Signal Processing Software and Hardware Lab
 
-## Department of Computer Science and Engineering
+### Department of Computer Science and Engineering
 ---------------
 * [CS101](https://www.cse.iitb.ac.in/~cs101/) - Computer Programming and Utilization
 
-## Department of Mathematics
+### Department of Mathematics
 ---------------
 * [MA109](http://www.math.iitb.ac.in/~ravir/ma109index.html) - Calculus - I
 * [MA111]() - Calculus - II
@@ -55,25 +57,25 @@ nav_order: 6
 * [MA205](http://www.math.iitb.ac.in/~ars/MA205.html) - Complex Analysis
 * [MA207]() - Differential Equations - II
 
-## Department of Mechanical Engineering
+### Department of Mechanical Engineering
 ---------------
 * [ME119]() - Engineering Graphics and Drawing
 
-## Department of Physics
+### Department of Physics
 ---------------
 * [PH107](https://portal.iitb.ac.in/asc/Courses/crsedetail.jsp) - Quantum Physics and Application
 * [PH108](https://portal.iitb.ac.in/asc/Courses/crsedetail.jsp) - Basics of Electricity and Magnetism
 
-## Department of Chemistry
+### Department of Chemistry
 ---------------
 * [CH105](https://www.chem.iitb.ac.in/courses_inner/848) - Organic and Inorganic Chemistry
 * [CH107](https://www.chem.iitb.ac.in/courses_inner/860) - Physical Chemistry
 
-## Department of Biosciences and Bioengineering
+### Department of Biosciences and Bioengineering
 ---------------
 * [BB101](https://www.bio.iitb.ac.in/academics/courses/bb101/) - Biology
 
-## Department of Humanities and Social Sciences
+### Department of Humanities and Social Sciences
 ---------------
 * [HS101](https://www.hss.iitb.ac.in/en/hs-101-economics) - Economics
 * [HS200](https://dampeeiitb.wordpress.com/hs200-2020/) - Environmental Studies
@@ -82,9 +84,9 @@ nav_order: 6
 ---------------
 ---------------
 
-# Electives
+## Electives
 
-## Computer Systems
+### Computer Systems
 ---------------
 * [CS347](https://www.cse.iitb.ac.in/~mythili/os/) - Operating Systems
 * [CS683](https://www.ee.iitb.ac.in/~viren/Courses/2015/CS683.htm) - Advanced Computer Architecture
@@ -92,7 +94,7 @@ nav_order: 6
 * [EE748](https://www.ee.iitb.ac.in/~viren/Courses/2013/EE748.htm) - Advanced Topics in Computer Architecture
 * [ME766]() - High Performance Scientific Computing
 
-## VLSI
+### VLSI
 ---------------
 * [EE618](https://www.ee.iitb.ac.in/web/course_lists/ee-618-cmos-analog-vlsi-design/) - CMOS Analog VLSI Design
 * [EE619](https://www.ee.iitb.ac.in/web/course_lists/ee-619-rf-microelectronics-chip-design/) - Radio Frequency Microelectronics Chip Design
@@ -101,24 +103,24 @@ nav_order: 6
 * [EE705](https://www.ee.iitb.ac.in/web/course_lists/ee-705-vlsi-design-lab/) - VLSI Design Lab
 * [EE709](https://www.ee.iitb.ac.in/web/course_lists/ee-709-testing-and-verification-of-vlsi-circuits/) - Testing and Verification of VLSI Circuits
 
-## Algorithms
+### Algorithms
 ---------------
 * [CS207](https://www.cse.iitb.ac.in/~mp/teach/ds/aut20/) - Discrete Structures
 * [CS213](https://www.cse.iitb.ac.in/~ranade/cs213/) - Data Structures and Algorithms
 * [CS218](https://www.cse.iitb.ac.in/~rgurjar/CS218_2023/) - Design and Analysis of Algorithms
 
-## Data Science and Artificial Intelligence
+### Data Science and Artificial Intelligence
 ---------------
 * [DS203](https://www.minds.iitb.ac.in/index.php/academics/minor-ai-ds/2-uncategorised/20-ds-203) - Programming for Data Science
 * [DS303](https://www.minds.iitb.ac.in/academics/minor-ai-ds?id=22) - Introduction to Machine Learning
 
-## Communication and Information Theory
+### Communication and Information Theory
 ---------------
 * [EE706](https://www.ee.iitb.ac.in/web/course_lists/ee-706-communication-networks/) - Communication Networks
 * [EE708](https://www.ee.iitb.ac.in/web/course_lists/ee-708-information-theory-and-coding/) - Information Theory and Coding
 * [EE764](https://www.ee.iitb.ac.in/~bsraj/courses/ee764/) - Wireless & Mobile Communication
 
-## Miscellaneous
+### Miscellaneous
 ---------------
 * [CS684](https://www.cse.iitb.ac.in/~cs684/) - Embedded Systems
 * [CS745](https://www.cse.iitb.ac.in/~cs745/) - Principles of Data and System Security
