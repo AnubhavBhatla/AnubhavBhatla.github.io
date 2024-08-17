@@ -9,6 +9,50 @@ toc:
   sidebar: true
 ---
 
+## Electives
+
+### Computer Systems
+---------------
+* [CS347](https://www.cse.iitb.ac.in/~mythili/os/) - Operating Systems
+* [CS683](https://www.ee.iitb.ac.in/~viren/Courses/2015/CS683.htm) - Advanced Computer Architecture
+* [EE691]() - Research and Development Project
+* [EE748](https://www.ee.iitb.ac.in/~viren/Courses/2013/EE748.htm) - Advanced Topics in Computer Architecture
+* [ME766]() - High Performance Scientific Computing
+
+### VLSI
+---------------
+* [EE618](https://www.ee.iitb.ac.in/web/course_lists/ee-618-cmos-analog-vlsi-design/) - CMOS Analog VLSI Design
+* [EE619](https://www.ee.iitb.ac.in/web/course_lists/ee-619-rf-microelectronics-chip-design/) - Radio Frequency Microelectronics Chip Design
+* [EE671](https://www.ee.iitb.ac.in/web/course_lists/ee-671-vlsi-design/) - VLSI Design
+* [EE677](https://www.ee.iitb.ac.in/web/course_lists/ee-677-foundations-of-vlsi-cad/) - Foundation of VLSI CAD
+* [EE705](https://www.ee.iitb.ac.in/web/course_lists/ee-705-vlsi-design-lab/) - VLSI Design Lab
+* [EE709](https://www.ee.iitb.ac.in/web/course_lists/ee-709-testing-and-verification-of-vlsi-circuits/) - Testing and Verification of VLSI Circuits
+
+### Algorithms
+---------------
+* [CS207](https://www.cse.iitb.ac.in/~mp/teach/ds/aut20/) - Discrete Structures
+* [CS213](https://www.cse.iitb.ac.in/~ranade/cs213/) - Data Structures and Algorithms
+* [CS218](https://www.cse.iitb.ac.in/~rgurjar/CS218_2023/) - Design and Analysis of Algorithms
+
+### Data Science and Artificial Intelligence
+---------------
+* [DS203](https://www.minds.iitb.ac.in/index.php/academics/minor-ai-ds/2-uncategorised/20-ds-203) - Programming for Data Science
+* [DS303](https://www.minds.iitb.ac.in/academics/minor-ai-ds?id=22) - Introduction to Machine Learning
+
+### Communication and Information Theory
+---------------
+* [EE706](https://www.ee.iitb.ac.in/web/course_lists/ee-706-communication-networks/) - Communication Networks
+* [EE708](https://www.ee.iitb.ac.in/web/course_lists/ee-708-information-theory-and-coding/) - Information Theory and Coding
+* [EE764](https://www.ee.iitb.ac.in/~bsraj/courses/ee764/) - Wireless & Mobile Communication
+
+### Miscellaneous
+---------------
+* [CS684](https://www.cse.iitb.ac.in/~cs684/) - Embedded Systems
+* [CS745](https://www.cse.iitb.ac.in/~cs745/) - Principles of Data and System Security
+* [EE724](https://www.ee.iitb.ac.in/web/course_lists/ee-724-nanoelectronics/) - Nanoelectronics
+* [EE746](https://www.ee.iitb.ac.in/web/course_lists/ee-746-neuromorphic-engineering/) - Neuromorphic Engineering
+* [EE789](https://www.ee.iitb.ac.in/web/course_lists/ee-789-algorithmic-design-of-digital-systems/) - Algorithmic Design of Digital Systems
+
 ---------------
 ---------------
 
@@ -80,50 +124,3 @@ toc:
 * [HS101](https://www.hss.iitb.ac.in/en/hs-101-economics) - Economics
 * [HS200](https://dampeeiitb.wordpress.com/hs200-2020/) - Environmental Studies
 * [HS307](https://dampiitbche.wordpress.com/course-reviews/minors-insti-electives/hs-307-sociology/) - Sociology
-
----------------
----------------
-
-## Electives
-
-### Computer Systems
----------------
-* [CS347](https://www.cse.iitb.ac.in/~mythili/os/) - Operating Systems
-* [CS683](https://www.ee.iitb.ac.in/~viren/Courses/2015/CS683.htm) - Advanced Computer Architecture
-* [EE691]() - Research and Development Project
-* [EE748](https://www.ee.iitb.ac.in/~viren/Courses/2013/EE748.htm) - Advanced Topics in Computer Architecture
-* [ME766]() - High Performance Scientific Computing
-
-### VLSI
----------------
-* [EE618](https://www.ee.iitb.ac.in/web/course_lists/ee-618-cmos-analog-vlsi-design/) - CMOS Analog VLSI Design
-* [EE619](https://www.ee.iitb.ac.in/web/course_lists/ee-619-rf-microelectronics-chip-design/) - Radio Frequency Microelectronics Chip Design
-* [EE671](https://www.ee.iitb.ac.in/web/course_lists/ee-671-vlsi-design/) - VLSI Design
-* [EE677](https://www.ee.iitb.ac.in/web/course_lists/ee-677-foundations-of-vlsi-cad/) - Foundation of VLSI CAD
-* [EE705](https://www.ee.iitb.ac.in/web/course_lists/ee-705-vlsi-design-lab/) - VLSI Design Lab
-* [EE709](https://www.ee.iitb.ac.in/web/course_lists/ee-709-testing-and-verification-of-vlsi-circuits/) - Testing and Verification of VLSI Circuits
-
-### Algorithms
----------------
-* [CS207](https://www.cse.iitb.ac.in/~mp/teach/ds/aut20/) - Discrete Structures
-* [CS213](https://www.cse.iitb.ac.in/~ranade/cs213/) - Data Structures and Algorithms
-* [CS218](https://www.cse.iitb.ac.in/~rgurjar/CS218_2023/) - Design and Analysis of Algorithms
-
-### Data Science and Artificial Intelligence
----------------
-* [DS203](https://www.minds.iitb.ac.in/index.php/academics/minor-ai-ds/2-uncategorised/20-ds-203) - Programming for Data Science
-* [DS303](https://www.minds.iitb.ac.in/academics/minor-ai-ds?id=22) - Introduction to Machine Learning
-
-### Communication and Information Theory
----------------
-* [EE706](https://www.ee.iitb.ac.in/web/course_lists/ee-706-communication-networks/) - Communication Networks
-* [EE708](https://www.ee.iitb.ac.in/web/course_lists/ee-708-information-theory-and-coding/) - Information Theory and Coding
-* [EE764](https://www.ee.iitb.ac.in/~bsraj/courses/ee764/) - Wireless & Mobile Communication
-
-### Miscellaneous
----------------
-* [CS684](https://www.cse.iitb.ac.in/~cs684/) - Embedded Systems
-* [CS745](https://www.cse.iitb.ac.in/~cs745/) - Principles of Data and System Security
-* [EE724](https://www.ee.iitb.ac.in/web/course_lists/ee-724-nanoelectronics/) - Nanoelectronics
-* [EE746](https://www.ee.iitb.ac.in/web/course_lists/ee-746-neuromorphic-engineering/) - Neuromorphic Engineering
-* [EE789](https://www.ee.iitb.ac.in/web/course_lists/ee-789-algorithmic-design-of-digital-systems/) - Algorithmic Design of Digital Systems

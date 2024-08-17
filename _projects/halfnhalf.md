@@ -2,7 +2,7 @@
 layout: page
 title: "Branch Predictor Partitioning for Performance"
 description: "Proposed the Oasis cache: A randomized cache design with minimal design complexity and ultra-low cost"
-img: assets/img/mirage.png
+img: assets/img/tage.png
 importance: 3
 category: research
 related_publications: halfnhalf
@@ -11,11 +11,11 @@ related_publications: halfnhalf
 <center>
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">
-        {% include figure.html path="assets/img/mirage.png" title="MIRAGE cache design" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/halfnhalf.png" title="Code translation in Half&Half" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    An overview of the MIRAGE cache design
+    Code translation in Half&Half
 </div>
 </center>
 
