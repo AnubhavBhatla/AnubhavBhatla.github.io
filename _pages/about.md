@@ -27,6 +27,7 @@ Research Interests:
 ------------------
 * Computer Systems and Architecture
 * Hardware Security
+* VLSI Circuit Design
 
 In pursuit of these interests, I have been a part of the following research groups:
 
