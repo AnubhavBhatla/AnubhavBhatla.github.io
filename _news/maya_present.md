@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We presented the Maya Cache at the International Symposium on Computer Architecture (ISCA'24) held in Buenos Aires, Argentina.
+We presented the Maya Cache at ISCA'24 held in Buenos Aires, Argentina.
