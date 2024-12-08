@@ -16,12 +16,11 @@ They have the option to convert to a Dual Degree (DD) programme within their own
 This blog will focus on the first option, but many of the points discussed here are also relevant to the IDDDP, with the exception of the application process, which is slightly more detailed for the interdisciplinary route.
 
 > A big thank you to our guest author [Wrath](https://paramrathour.github.io/), who will be sharing his experiences along with me.
-{: .prompt-info}
 
 We both joined IIT Bombay as B.Tech. students in Electrical Engineering (EE) and utilised the option to convert to the DD programme offered by our department. While I chose Electronic Systems (ES) as my specialisation, Param chose Control and Computing (CC).
 
 > This post is divided into four sections: the first section explores the motivations and our reasons to convert, while the second section examines the pros and cons of this decision. If you're considering making the conversion then the third section outlines the logistics involved in the conversion process and discusses some potential quirks that are not deal-breakers, but are often overlooked.
-{: .prompt-tip}
+{: .block-tip}
 
 ## Motivation
 Why I chose Electronic Systems
