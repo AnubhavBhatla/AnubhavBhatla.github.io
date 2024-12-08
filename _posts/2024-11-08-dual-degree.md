@@ -5,8 +5,10 @@ date: 2024-12-08 09:56:00-0400
 description: Everything you need to know about converting from a B.Tech. to a Dual Degree Program at EE, IIT Bombay
 tags: academics
 categories: blog-posts
-giscus_comments: false
+giscus_comments: true
 related_posts: false
+toc:
+  beginning: true
 ---
 
 ## Introduction
