@@ -25,12 +25,12 @@ We both joined IIT Bombay as B.Tech. students in Electrical Engineering (EE) and
 ## Motivation
 Why I chose Electronic Systems
 : 
-> The decision of choosing Electronic Systems over other specialisations was quite natural for me. Up until my 7<sup>th</sup> semester, I had spent a good amount of time pursuing research in the field of computer architecture. Additionally, I had taken up various digital and analog VLSI courses as my electives. This meant that I had already completed half of the specialisation requirements of ES and it felt natural for me to go ahead with Electronic Systems as my specialisation of choice.\
+The decision of choosing Electronic Systems over other specialisations was quite natural for me. Up until my 7<sup>th</sup> semester, I had spent a good amount of time pursuing research in the field of computer architecture. Additionally, I had taken up various digital and analog VLSI courses as my electives. This meant that I had already completed half of the specialisation requirements of ES and it felt natural for me to go ahead with Electronic Systems as my specialisation of choice.\
 --- [Anubhav Bhatla](https://anubhavbhatla.github.io/)
 
 Why I chose Control and Computing
 : 
-> For me, the turning point came after the final lecture of the EE302 (Control Systems) course, when all but two students had left the class. We had an amazing discussion on system realisations and transfer functions that completely blew my little mind. While the course had felt boring for most of its run, I found myself falling in love with it towards the end, especially when we delved into State-space theory, which perfectly complemented my learnings of linear algebra through EE636 (Matrix Computations) course that I was also taking at the same time.\
+For me, the turning point came after the final lecture of the EE302 (Control Systems) course, when all but two students had left the class. We had an amazing discussion on system realisations and transfer functions that completely blew my little mind. While the course had felt boring for most of its run, I found myself falling in love with it towards the end, especially when we delved into State-space theory, which perfectly complemented my learnings of linear algebra through EE636 (Matrix Computations) course that I was also taking at the same time.\
 Then, in my 3<sup>rd</sup> year, I went on to take more courses related to control theory / applied mathematics, which further increased my appreciation of the topic and by the end of that year, I realised that I have completed many electives (even some core courses) related to Control and Computing specialisation. It was during this time that I started contemplating about converting to DD, I noticed that I can complete all my courses till 4<sup>th</sup> year and then I will get a chance to devote one complete year to have a go at research.\
 --- [Param Rathour](https://paramrathour.github.io/)
 
