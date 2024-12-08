@@ -6,7 +6,7 @@ description: Everything you need to know about converting from a B.Tech. to a Du
 tags: academics
 categories: blog-posts
 authors: [anubhav, wrath]
-giscus_comments: true
+giscus_comments: false
 related_posts: false
 ---
 
