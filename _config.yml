@@ -133,7 +133,7 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo: AnubhavBhatla/anubhavbhatla.github.io                   # <your-github-user-name>/<your-github-repo-name>
+  repo: "AnubhavBhatla/anubhavbhatla.github.io"
   repo-id: "R_kgDOKcwvkA"
   category: "General"
   category-id: "DIC_kwDOKcwvkM4ClBYV"

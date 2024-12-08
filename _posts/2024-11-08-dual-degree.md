@@ -8,7 +8,7 @@ categories: blog-posts
 giscus_comments: true
 related_posts: false
 toc:
-  beginning: true
+  sidebar: left
 ---
 
 ## Introduction
@@ -135,7 +135,7 @@ Though, there are two degrees, you can only get them after completion of entire 
 
 ## Conclusion
 And that's a wrap! I hope this has provided you with more clarity, ultimately the decision depends on what you value more. Anyway, we wish you all the best in making the most of your academic journey at IITB.\
-For more questions, you can either comment down below or reach out to me/Param via any of the platforms mentioned at the bottom of the sidebar or at [his website](https://paramrathour.github.io/).
+For more questions, you can either comment down below or reach out to me/Param via any of the platforms mentioned on my homepage or at [his website](https://paramrathour.github.io/).
 ## External Links
 [^UGrulebook]: [Indian Institute of Technology Bombay, "Rules & Regulations for Undergraduate Programmes"](https://www.iitb.ac.in/newacadhome/ugrulebook.pdf)
 [^programmerequirements]: [Dual Degree EE, "Course Structure"](https://www.ee.iitb.ac.in/web/academics/dual-degree/)

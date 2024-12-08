@@ -8,7 +8,7 @@ categories: blog-posts
 giscus_comments: true
 related_posts: false
 toc:
-  beginning: true
+  sidebar: left
 ---
 
 Stay tuned for this!
