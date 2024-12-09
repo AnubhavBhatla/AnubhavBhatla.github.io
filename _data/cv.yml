@@ -11,7 +11,7 @@
       institution: Indian Institute of Technology, Bombay
       year: 2025
       description:
-        - "Integrated Bachelor + Master Technology in Electrical Engineering (CPI: 9.13)"
+        - "Integrated Bachelor + Master Technology in Electrical Engineering (CPI: 9.25)"
         - Specialization in Electronic Systems
         - Minor Degree in Computer Science and Engineering
 
@@ -34,28 +34,12 @@
         - Analyzed the boot flow of various processors and created a boot loader porting guide for the Sitara AM62x processor
         - Reviewed existing documentation and Linux examples for the AM62x & suggested changes to improve user experience
 
-# - title: Scholastic Achievements
-#   type: time_table
-#   contents:
-#     - year: 2023
-#       items:
 - title: Awards
   type: list
   contents:
+    - Intel India Research Fellowship 2024-25
     - Undergraduate Research Award (IIT Bombay)
-    # - year: 2020
-    #   items:
-    #     - Secured All India Rank 266 in Joint Entrance Examination, JEE (Advanced) among 160 thousand candidates
-    #     - Acquired All India Rank 490 in Joint Entrance Examination, JEE (Mains) among 1.1 million candidates
-    #     - Secured Top 250 rank among 300 thousand candidates in the Bits Pilani entrance examination (BITSAT)
-    #     - Received Certificate of Merit for exemplary performance in Class 12 CBSE Board examinations 
-    # - year: 2019
-    #   items:
-    #     - Qualified for the Indian National Olympiad (INO) in Astronomy, Chemistry & Physics
-    #     - Bagged a position among the Top 1% students nationally in NSEP & NSEA conducted by IAPT
-    # - year: 2018
-    #   items:
-    #     - Awarded the Kishore Vaigyanak Protsahan Yojana (KVPY) fellowship with All India Rank 337
+    - Kishore Vaigyanak Protsahan Yojana (KVPY) fellowship
         
 - title: Skills
   type: nested_list
@@ -68,4 +52,4 @@
         - Intel Quartus, Autodesk Fusion 360, GStreamer, Cadence Virtuoso, GHDL, Keil μVision, MATLAB, LTSpice, Ngspice, ArduinoIDE, GNU Radio, LATEX, AutoCAD, Solidworks
     - title: Simulators
       items:
-        - ChampSim, gem5, Sniper, GPGPU-Sim
+        - ChampSim, gem5, Sniper, GPGPU-Sim, CacheFX, PCACTI
