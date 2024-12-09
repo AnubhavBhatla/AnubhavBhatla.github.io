@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Understanding the Security of Secure Randomized Caches"
-description: "Proposed the Oasis cache: A randomized cache design with minimal design complexity and ultra-low cost"
+description: "Working on identifying security knobs in modern secure randomized caches and identifying a minimal set to provide security"
 img: assets/img/hardware-security.png
 importance: 4
 category: research

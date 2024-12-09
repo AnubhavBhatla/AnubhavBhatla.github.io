@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Branch Predictor Partitioning for Performance"
-description: "Proposed the Oasis cache: A randomized cache design with minimal design complexity and ultra-low cost"
+description: "Optimizing the NOP padding algorithm and working on identifying hot branches to improve their prediction rates"
 img: assets/img/tage.png
 importance: 3
 category: research
