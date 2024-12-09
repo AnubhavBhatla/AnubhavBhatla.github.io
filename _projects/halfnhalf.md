@@ -21,5 +21,5 @@ related_publications: halfnhalf
 
 _Guide: [Prof. Dean Tullsen](https://cseweb.ucsd.edu/~tullsen/)_  
 
-MIRAGE is a secure fully-associative last-level cache design which guarantees complete security against eviction-based side-channel attacks, but at a hefty hardware overhead of 17%. MAYA, on the other hand, guarantees the same level of security, at no hardware overhead. It is also able to save around 6% in terms of energy and area compared to the baseline. However, both these designs have a fair bit of additional design complexity, which make them impractical to be adopted by the industry. We are working on a secure randomized cache design which provides security at an ultra-low cost and minimal additional design complexity. This makes our cache design very pratical and easy to implement.
+Half&Half is a novel technique that reverse-engineers modern branch predictors, identifying a simple way to partition the predictor space across two processes running in SMT mode. I am currently working on improving this partitioning algorithm to optimized the number of NOPs required. I am also working on identifying hot branches in a workload to separate them in order to improve their misprediction rate and thus improve performance.
 

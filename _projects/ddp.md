@@ -5,7 +5,7 @@ description: "Proposed the Oasis cache: A randomized cache design with minimal d
 img: assets/img/hardware-security.png
 importance: 4
 category: research
-related_publications: oasis, maya, mirage
+related_publications: maya, mirage
 ---
 
 <center>
@@ -21,5 +21,7 @@ related_publications: oasis, maya, mirage
 
 _Guides:[Prof. Biswabandan Panda](https://www.cse.iitb.ac.in/~biswa/), [Prof. Sayandeep Saha](https://sites.google.com/view/sayandeepsaha/home)_  
 
-MIRAGE is a secure fully-associative last-level cache design which guarantees complete security against eviction-based side-channel attacks, but at a hefty hardware overhead of 17%. MAYA, on the other hand, guarantees the same level of security, at no hardware overhead. It is also able to save around 6% in terms of energy and area compared to the baseline. However, both these designs have a fair bit of additional design complexity, which make them impractical to be adopted by the industry. We are working on a secure randomized cache design which provides security at an ultra-low cost and minimal additional design complexity. This makes our cache design very pratical and easy to implement.
+_Funded by the Intel India Research Fellowship_
+
+MIRAGE and MAYA are state-of-the-art secure randomized cache designs that offer strong security guarantees against conflict-based attacks. However, they introduce various modifications to a traditional set-associative cache. These changes, though provide complete security, are not completely understood and it's not completely clear as to when and how these "security knobs" work. We are currently working on identifying these "knobs" in modern secure randomized cache designs and explaining their inner workings. We are also looking at complex combinations of these knobs and how they interact with one another with the goal of identifying the minimal set of these knobs to secure a traditional set-associative cache.
 
