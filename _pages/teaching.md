@@ -11,31 +11,27 @@ nav_order: 5
 ---------------
 
 ## CS773: Computer Architecture for Performance and Security
-Serving as an undergraduate teaching assistant for a batch of 50+ students, with the responsibility of designing the programming assignments and academically mentoring students throughout the course.
+(2025) 100+ students
 
----------------
 ---------------
 
 ## EE789: Algorithm Design of Digital Systems
-Serving as an undergraduate teaching assistant for a batch of 100+ students, responsible for conducting doubt-solving sessions and helping with the course evaluation.
+(2025) 80+ students
 
----------------
 ---------------
 
 ## CS683: Advanced Computer Architecture
-Serving as an undergraduate teaching assistant for a batch of 100+ students, with the responsibility of designing the programming assignments and academically mentoring students throughout the course.
+(2024) 100+ students
 
----------------
 ---------------
 
 ## EE229: Signal Processing
-Serving as an undergraduate teaching assistant for a batch of 80+ students, responsible for conducting doubt-solving sessions and helping with the course evaluation.
+(2024) 90+ students
 
----------------
 ---------------
 
 ## EE309: Microprocessors 
-Served as an undergraduate teaching assistant for a batch of 200+ students, with the responsibility of conducting doubt-solving sessions and academically mentoring students over the duration of the course.
+(2022) 200+ students
 
 ---------------
 ---------------
