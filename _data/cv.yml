@@ -7,22 +7,30 @@
 - title: Education
   type: time_table
   contents:
+    - title: Doctor of Philosophy
+      institution: Massachusetts Institute of Technology
+      year: 2031
+      description:
+        - "Doctor of Philosophy in Electrical Engineering and Computer Science"
     - title: Bachelor + Master of Technology
       institution: Indian Institute of Technology, Bombay
       year: 2025
       description:
-        - "Integrated Bachelor + Master Technology in Electrical Engineering (CPI: 9.25)"
+        - "Integrated Bachelor + Master Technology in Electrical Engineering (GPA: 9.38/10)"
         - Specialization in Electronic Systems
         - Minor Degree in Computer Science and Engineering
 
 - title: Publications
   type: time_table
   contents:
-    - title: "The Maya Cache: A Storage-efficient and Secure Fully-associative Last-level Cache"
-      institution: International Symposium on Computer Architecture (ISCA)
-      year: 2024
+      - title: "SoK: So, You Think You Know All About Secure Randomized Caches?"
+        institution: USENIX Security Symposium (USENIX Security)
+        year: 2025
+      - title: "The Maya Cache: A Storage-efficient and Secure Fully-associative Last-level Cache"
+        institution: International Symposium on Computer Architecture (ISCA)
+        year: 2024
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
     - title: Embedded Software Intern
@@ -37,6 +45,7 @@
 - title: Awards
   type: list
   contents:
+    - MIT EECS Great Educators Fellowship 2025-26
     - Intel India Research Fellowship 2024-25
     - Undergraduate Research Award (IIT Bombay)
     - Kishore Vaigyanak Protsahan Yojana (KVPY) fellowship
@@ -46,10 +55,10 @@
   contents:
     - title: Languages
       items:
-        - C, C++, VHDL, Verilog, Python, Assembly, Heptagon
+        - C, C++, VHDL, Verilog, Python, Assembly (8085), Algorithmic Assembly (Aa), Heptagon
     - title: Software
       items: 
-        - Intel Quartus, Autodesk Fusion 360, GStreamer, Cadence Virtuoso, GHDL, Keil μVision, MATLAB, LTSpice, Ngspice, ArduinoIDE, GNU Radio, LATEX, AutoCAD, Solidworks
+        - Intel Quartus, Vivado, Autodesk Fusion 360, GStreamer, Cadence Virtuoso, Synopsys Sentaurus, GHDL, Keil μVision, MATLAB, LTSpice, Ngspice, ArduinoIDE, GNU Radio, LATEX, AutoCAD, Solidworks
     - title: Simulators
       items:
         - ChampSim, gem5, Sniper, GPGPU-Sim, CacheFX, PCACTI
