@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Happy to announce that I will be joining MIT for a PhD in EECS.
+Happy to announce that I will be joining MIT for a PhD in EECS with the EECS Great Educators Fellowship.
