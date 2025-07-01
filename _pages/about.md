@@ -21,7 +21,7 @@ Hey! I am Anubhav, a fifth-year undergraduate at the Department of the Electrica
 
 I am deeply interested in the research area of Computer Architecture, which involves a good mix of fascinating topics in Electrical and Computer Science. I am currently working on research topics in Hardware Security, designing cache structures to ensure security against various side-channel attacks. I am also exploring branch predictor partitioning techniques for security and performance.
 
-Outside of academics, I enjoy reading books (mostly fiction) and follow sports such as tennis, cricket, and badminton. I have also completed one year of training under the National Cadet Corps (NCC) at IIT Bombay.
+Outside of academics, I enjoy reading books (mostly fiction) and play sports such as tennis, squash, and badminton. I have also completed one year of training under the National Cadet Corps (NCC) at IIT Bombay.
 
 Research Interests:
 ------------------
