@@ -27,12 +27,10 @@ Research Interests:
 ------------------
 * Computer Systems and Architecture
 * Hardware Security
-* VLSI Circuit Design
 
 In pursuit of these interests, I have been a part of the following research groups:
 
 * [MATCHA](https://people.csail.mit.edu/mengjia/) - Microarchitecture Attacks and Challenges Group - [Prof. Mengjia Yan](https://people.csail.mit.edu/mengjia/)
-* [FLAME](https://flame.csail.mit.edu) - Foundations of Languages and Machines Lab - [Prof. Rachit Nigam](https://rachit.pl)
 * [CASPER](https://casper-iitb.github.io/) - Computer Architecture for Security and Performance Group - [Prof. Biswabandan Panda](https://www.cse.iitb.ac.in/~biswa/)
 * [Memory Systems Lab](https://memlab.ece.gatech.edu) - [Prof. Moinuddin Qureshi](https://moin.cc.gatech.edu)
 * [PACL](https://cseweb.ucsd.edu/groups/pacl/) - High Performance Processor Architecture and Compilation Lab - [Prof. Dean Tullsen](https://cseweb.ucsd.edu//~tullsen/index.html)
