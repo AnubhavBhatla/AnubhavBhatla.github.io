@@ -106,14 +106,15 @@
               "
           >{{more_authors_hide}}</span>
         {%- endif -%}
-
         </div>
+
         <!-- Award -->
-        <div>
+        <div class="award">
           {%- if entry.award %}
-            <p class="award">{{ entry.award }}</p>
+            <p class="z-depth-0">{{ entry.award }}</p>
           {%- endif %}
         </div>
+
         <!-- Journal/Book title and date -->
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
