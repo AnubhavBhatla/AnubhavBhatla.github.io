@@ -188,6 +188,11 @@
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
           </div>
+          <div>
+            {%- if entry.award %}
+              <p class="z-depth-0">{{ entry.award }}</p>
+            {%- endif %}
+          </div>
           {% if site.enable_publication_badges %}
           {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
           {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
