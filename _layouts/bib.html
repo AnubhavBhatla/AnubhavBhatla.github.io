@@ -107,12 +107,11 @@
           >{{more_authors_hide}}</span>
         {%- endif -%}
         </div>
-
         <!-- Award -->
         {%- if entry.award %}
-          <div style="color: red; font-weight: bold;">{{ entry.award }}</div>
+          <!-- <div style="color: red; font-weight: bolder;">{{ entry.award }}</div> -->
+          <div class="award">{{entry.award}}</div>
         {%- endif %}
-
         <!-- Journal/Book title and date -->
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
