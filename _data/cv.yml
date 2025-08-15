@@ -25,8 +25,8 @@
   contents:
       - title: "SoK: So, You Think You Know All About Secure Randomized Caches?"
         institution: USENIX Security Symposium (USENIX Security)
+        award: Distinguished Artifact Award Winner
         year: 2025
-        award: "Distinguished Artifact Award Winner"
       - title: "The Maya Cache: A Storage-efficient and Secure Fully-associative Last-level Cache"
         institution: International Symposium on Computer Architecture (ISCA)
         year: 2024
