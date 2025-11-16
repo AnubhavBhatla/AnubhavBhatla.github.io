@@ -2,14 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: Senior Undergraduate, Electrical Engineering, IIT Bombay
+subtitle: First-year Ph.D. Student, EECS, MIT
 nav: false
 profile:
   align: right
   image: Photo_Formal.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <center>IIT Bombay, Powai</center>
+    <center>Cambridge, Massachusetts</center>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -21,7 +21,7 @@ Hey! I am Anubhav, a first-year EECS Ph.D. student at the Massachusetts Institut
 
 I am deeply interested in the research area of Computer Architecture, which involves a good mix of fascinating topics in Electrical Engineering and Computer Science. I am currently working on research topics in Reliability of accelerators against silent data corruptions. I have previously explored Hardware Security, designing cache structures to ensure security against various side-channel attacks and branch predictor partitioning techniques for security and performance.
 
-Outside of academics, I enjoy reading books (mostly fiction) and play sports such as tennis, squash, and badminton. I have also completed one year of training under the National Cadet Corps (NCC) at IIT Bombay.
+Outside of academics, I enjoy going to the gym, reading books (mostly fiction) and play sports such as tennis, squash, and badminton. I have also completed one year of training under the National Cadet Corps (NCC) at IIT Bombay.
 
 Research Interests:
 ------------------
