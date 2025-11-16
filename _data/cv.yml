@@ -2,6 +2,7 @@
   type: list
   contents:
     - Computer Systems and Architecture
+    - Reliability
     - Hardware Security
 
 - title: Education
