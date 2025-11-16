@@ -3,7 +3,7 @@ layout: page
 title: "Hardware-Efficient Secure Cache Design"
 description: "Proposed the Maya Cache: A secure and storage-efficient fully-associative last-level cache design"
 img: assets/img/maya.png
-importance: 2
+importance: 4
 category: research
 related_publications: maya, mirage
 ---
