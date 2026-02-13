@@ -9,6 +9,10 @@ toc:
   sidebar: true
 ---
 
+## MIT Courses
+---------------
+* [6.512](https://frap.csail.mit.edu/main) - Formal Reasoning about Programs
+
 ## Electives
 
 ### Computer Systems
