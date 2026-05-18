@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our SoK paper on secure randomized caches has been accepted to appear at the USENIX Security Symposium (USENIX Security'25).
+Our [SoK paper](https://anubhavbhatla.github.io/assets/pdf/SoK.pdf) on secure randomized caches has been accepted to appear at the USENIX Security Symposium (USENIX Security'25).

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I successfully defended my Masters Thesis titled "Practical and Secure Randomized Last-level Cache Design".
+I successfully defended my [Masters Thesis](https://anubhavbhatla.github.io/assets/pdf/Masters-Thesis.pdf) titled "Practical and Secure Randomized Last-level Cache Design".
