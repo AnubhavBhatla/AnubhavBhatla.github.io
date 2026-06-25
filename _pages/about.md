@@ -23,20 +23,21 @@ I am deeply interested in the research area of Computer Architecture, which invo
 
 Outside of academics, I enjoy going to the gym, reading books (mostly fiction) and play sports such as tennis, squash, and badminton. I have also completed one year of training under the National Cadet Corps (NCC) at IIT Bombay.
 
-## Research Interests
-
-<div class="research-interests">
-  <div class="ri-card">
-    <span class="ri-icon"><i class="fas fa-microchip" aria-hidden="true"></i></span>
-    <span class="ri-title">Computer Systems &amp; Architecture</span>
-  </div>
-  <div class="ri-card">
-    <span class="ri-icon"><i class="fas fa-shield-halved" aria-hidden="true"></i></span>
-    <span class="ri-title">Reliability</span>
-  </div>
-  <div class="ri-card">
-    <span class="ri-icon"><i class="fas fa-lock" aria-hidden="true"></i></span>
-    <span class="ri-title">Hardware Security</span>
+<div class="ri-block">
+  <h2>Research Interests</h2>
+  <div class="research-interests">
+    <div class="ri-card">
+      <span class="ri-icon"><i class="fas fa-microchip" aria-hidden="true"></i></span>
+      <span class="ri-title">Computer Systems &amp; Architecture</span>
+    </div>
+    <div class="ri-card">
+      <span class="ri-icon"><i class="fas fa-shield-halved" aria-hidden="true"></i></span>
+      <span class="ri-title">Reliability</span>
+    </div>
+    <div class="ri-card">
+      <span class="ri-icon"><i class="fas fa-lock" aria-hidden="true"></i></span>
+      <span class="ri-title">Hardware Security</span>
+    </div>
   </div>
 </div>
 

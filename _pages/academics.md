@@ -22,9 +22,9 @@ toc:
 ---------------
 * [CS347](https://www.cse.iitb.ac.in/~mythili/os/) - Operating Systems
 * [CS683](https://www.ee.iitb.ac.in/~viren/Courses/2015/CS683.htm) - Advanced Computer Architecture
-* [EE691]() - Research and Development Project
+* **EE691** - Research and Development Project
 * [EE748](https://www.ee.iitb.ac.in/~viren/Courses/2013/EE748.htm) - Advanced Topics in Computer Architecture
-* [ME766]() - High Performance Scientific Computing
+* **ME766** - High Performance Scientific Computing
 
 ### VLSI
 ---------------
@@ -81,7 +81,7 @@ toc:
 * [EE338](https://www.ee.iitb.ac.in/web/course_lists/ee-338-digital-signal-processing/) - Digital Signal Processing
 * [EE341](https://www.ee.iitb.ac.in/web/course_lists/ee-341-communication-systems-i/) - Communication Systems
 * [EE350](https://www.ee.iitb.ac.in/web/course_lists/ee-350-technical-communication/) - Technical Communication
-* [EE491]() - B.Tech Project
+* **EE491** - B.Tech Project
 
 #### Lab Courses
 
@@ -102,15 +102,15 @@ toc:
 ### Department of Mathematics
 ---------------
 * [MA109](http://www.math.iitb.ac.in/~ravir/ma109index.html) - Calculus - I
-* [MA111]() - Calculus - II
+* **MA111** - Calculus - II
 * [MA106](http://www.math.iitb.ac.in/~ars/MA106.html) - Linear Algebra
 * [MA108](http://www.math.iitb.ac.in/~dey/diffeqn_spring14.html) - Differential Equations - I
 * [MA205](http://www.math.iitb.ac.in/~ars/MA205.html) - Complex Analysis
-* [MA207]() - Differential Equations - II
+* **MA207** - Differential Equations - II
 
 ### Department of Mechanical Engineering
 ---------------
-* [ME119]() - Engineering Graphics and Drawing
+* **ME119** - Engineering Graphics and Drawing
 
 ### Department of Physics
 ---------------

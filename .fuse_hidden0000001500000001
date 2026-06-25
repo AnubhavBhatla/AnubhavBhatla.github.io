@@ -2393,6 +2393,29 @@ nav.navbar { top: 36px; }
         <tr><th scope="row">Aug 13, 2025</th><td>Our SoK work at USENIX Security 2025 won the Distinguished Artifact Award!</td></tr>
         <tr><th scope="row">May 29, 2025</th><td>Our SoK paper on secure randomized caches was accepted to USENIX Security '25.</td></tr>
       </table></div></div>
+      <h2><a href="javascript:void(0)" style="color: inherit;">Latest Posts</a></h2>
+      <div class="news"><div class="table-responsive"><table class="table table-sm table-borderless">
+        <tr><th scope="row">Oct 3, 2025</th><td><a class="news-title" href="javascript:void(0)">Grad Applications 101</a></td></tr>
+        <tr><th scope="row">Dec 8, 2024</th><td><a class="news-title" href="javascript:void(0)">Dual Degree Conversion @IITB</a></td></tr>
+      </table></div></div>
+      <h2><a href="javascript:void(0)" style="color: inherit;">Selected Publications</a></h2>
+      <div class="publications">
+        <ol class="bibliography">
+          <li>
+            <div class="abbr"><abbr><a href="javascript:void(0)">USENIX Sec</a></abbr></div>
+            <div class="title">SoK: So, You Think You Know All About Secure Randomized Caches?</div>
+            <div class="author"><em>Anubhav Bhatla</em>, Hari Rohit Bhavsar, Sayandeep Saha, and 1 more author</div>
+            <div class="award"><i class="fas fa-award"></i> Distinguished Artifact Award Winner</div>
+            <div class="links"><a href="javascript:void(0)" class="btn">PDF</a> <a href="javascript:void(0)" class="btn">Code</a> <a href="javascript:void(0)" class="btn">Slides</a></div>
+          </li>
+          <li>
+            <div class="abbr"><abbr><a href="javascript:void(0)">ISCA</a></abbr></div>
+            <div class="title">The Maya Cache: A Storage-efficient and Secure Fully-associative Last-level Cache</div>
+            <div class="author"><em>Anubhav Bhatla</em>, Navneet, and Biswabandan Panda</div>
+            <div class="links"><a href="javascript:void(0)" class="btn">PDF</a> <a href="javascript:void(0)" class="btn">Code</a> <a href="javascript:void(0)" class="btn">Slides</a></div>
+          </li>
+        </ol>
+      </div>
       <div class="social"><div class="contact-icons">
         <a href="javascript:void(0)"><i class="fas fa-envelope"></i></a>
         <a href="javascript:void(0)"><i class="ai ai-google-scholar"></i></a>
@@ -2468,6 +2491,7 @@ nav.navbar { top: 36px; }
       <h2 class="category">Reading Projects</h2>
       <div class="row">
         <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" src="assets/img/gpgpu.png" alt=""><div class="card-body"><h3 class="card-title">General-Purpose GPUs</h3><p class="card-text">An adaptive LLC caching scheme for general-purpose GPUs.</p></div></div></a></div>
+        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" src="assets/img/os.png" alt=""><div class="card-body"><h3 class="card-title">Operating Systems</h3><p class="card-text">A reading project exploring operating systems.</p></div></div></a></div>
       </div>
     </div>
     </article>

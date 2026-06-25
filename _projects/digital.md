@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Digital Circuit Design
-description: Estimated the Remaining Useful Life of Li-ion EV batteries with an R2 score of 98.09
+description: Designing and simulating digital logic circuits and finite state machines in VHDL
 img: assets/img/digital.webp
 importance: 15
 category: "Technical Projects"
