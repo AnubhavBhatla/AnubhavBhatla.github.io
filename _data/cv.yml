@@ -23,36 +23,6 @@
         - Specialization in Electronic Systems
         - Minor Degree in Computer Science and Engineering
 
-- title: Research Experience
-  type: time_table
-  contents:
-    - title: Reliability of Accelerators against Silent Data Corruptions
-      institution: Prof. Mengjia Yan, MIT
-      year: 2025 - Present
-      items:
-        - Studying the effects of silent data corruptions on CNN accelerators by analyzing faulty model weights and accuracy
-        - Analyzing fault models for systolic-array LLM attention accelerators and the performance-hardware tradeoffs of mitigation techniques
-        - Developing an in-house simulator to model the effects of hardware faults in LLM attention
-        - "In collaboration with AMD and Prof. Joel Emer (MIT)"
-    - title: Practical and Secure Randomized Last-level Cache Design
-      institution: Prof. Biswabandan Panda, IIT Bombay
-      year: 2023 - 2025
-      items:
-        - "Designed the Maya cache: a secure, storage-efficient fully-associative LLC saving up to 28% area and 13% energy over a non-secure baseline"
-        - "Proposed the Avatar cache: a morphable LLC offering security-on-demand at under 0.2% performance overhead (with Prof. Moinuddin Qureshi, Georgia Tech)"
-        - "Systematized the security knobs of secure randomized caches and their individual and combined impact (SoK, USENIX Security '25)"
-    - title: Branch Predictor Partitioning for Performance
-      institution: Prof. Dean Tullsen, UC San Diego
-      year: 2024 - Present
-      items:
-        - Implementing the Half&Half branch-alignment algorithm on LLVM to partition the conditional branch predictor across SMT threads
-        - Identifying prediction-critical workloads that benefit most from a partitioned branch predictor
-    - title: Secure Cache-line Reallocation in Partitioned Caches
-      institution: Prof. Virendra Singh, IIT Bombay
-      year: 2022
-      items:
-        - Modified PASS-P to preferentially reallocate dead blocks on phase changes, reducing dead blocks by over 10%
-
 - title: Professional Experience
   type: time_table
   contents:
@@ -64,7 +34,7 @@
         - Modified GStreamer pipelines to enable stacking of multiple DNN models required for the application
         - Analyzed the boot flow of various processors and created a boot loader porting guide for the Sitara AM62x processor
 
-- title: Teaching & Mentorship
+- title: Mentorship
   type: time_table
   contents:
     - title: Graduate Application Assistance Program (GAAP) Mentor
@@ -77,12 +47,6 @@
       year: 2024 - 2025
       items:
         - Selected to a 54-member team to mentor sophomores on academics, extra-curriculars, careers, and research
-    - title: Teaching Assistant
-      institution: IIT Bombay
-      year: 2022 - 2025
-      items:
-        - "CS773 Computer Architecture for Performance and Security and CS683 Advanced Computer Architecture (Prof. Biswabandan Panda)"
-        - "EE789 Algorithmic Design of Digital Systems (Prof. Madhav Desai), EE229 Signal Processing (Prof. Preeti Rao), EE309 Microprocessors (Prof. Virendra Singh)"
 
 - title: Awards & Honours
   type: list
