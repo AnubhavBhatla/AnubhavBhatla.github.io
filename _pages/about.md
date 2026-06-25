@@ -23,17 +23,42 @@ I am deeply interested in the research area of Computer Architecture, which invo
 
 Outside of academics, I enjoy going to the gym, reading books (mostly fiction) and play sports such as tennis, squash, and badminton. I have also completed one year of training under the National Cadet Corps (NCC) at IIT Bombay.
 
-Research Interests:
-------------------
-* Computer Systems and Architecture
-* Reliability
-* Hardware Security
+## Research Interests
+
+<div class="research-interests">
+  <div class="ri-card">
+    <span class="ri-icon"><i class="fas fa-microchip" aria-hidden="true"></i></span>
+    <span class="ri-title">Computer Systems &amp; Architecture</span>
+  </div>
+  <div class="ri-card">
+    <span class="ri-icon"><i class="fas fa-shield-halved" aria-hidden="true"></i></span>
+    <span class="ri-title">Reliability</span>
+  </div>
+  <div class="ri-card">
+    <span class="ri-icon"><i class="fas fa-lock" aria-hidden="true"></i></span>
+    <span class="ri-title">Hardware Security</span>
+  </div>
+</div>
 
 In pursuit of these interests, I have been a part of the following research groups:
 
-* [MATCHA](https://people.csail.mit.edu/mengjia/) - Microarchitecture Attacks and Challenges Group - [Prof. Mengjia Yan](https://people.csail.mit.edu/mengjia/)
-* [CASPER](https://casper-iitb.github.io/) - Computer Architecture for Security and Performance Group - [Prof. Biswabandan Panda](https://www.cse.iitb.ac.in/~biswa/)
-* [Memory Systems Lab](https://memlab.ece.gatech.edu) - [Prof. Moinuddin Qureshi](https://moin.cc.gatech.edu)
-* [PACL](https://cseweb.ucsd.edu/groups/pacl/) - High Performance Processor Architecture and Compilation Lab - [Prof. Dean Tullsen](https://cseweb.ucsd.edu//~tullsen/index.html)
+<div class="research-groups">
+  <div class="rg-item">
+    <div class="rg-name"><a href="https://people.csail.mit.edu/mengjia/">MATCHA</a> &mdash; Microarchitecture Attacks and Challenges Group</div>
+    <div class="rg-meta"><a href="https://people.csail.mit.edu/mengjia/">Prof. Mengjia Yan</a> &middot; MIT</div>
+  </div>
+  <div class="rg-item">
+    <div class="rg-name"><a href="https://casper-iitb.github.io/">CASPER</a> &mdash; Computer Architecture for Security and Performance Group</div>
+    <div class="rg-meta"><a href="https://www.cse.iitb.ac.in/~biswa/">Prof. Biswabandan Panda</a> &middot; IIT Bombay</div>
+  </div>
+  <div class="rg-item">
+    <div class="rg-name"><a href="https://memlab.ece.gatech.edu">Memory Systems Lab</a></div>
+    <div class="rg-meta"><a href="https://moin.cc.gatech.edu">Prof. Moinuddin Qureshi</a> &middot; Georgia Tech</div>
+  </div>
+  <div class="rg-item">
+    <div class="rg-name"><a href="https://cseweb.ucsd.edu/groups/pacl/">PACL</a> &mdash; High-Performance Processor Architecture and Compilation Lab</div>
+    <div class="rg-meta"><a href="https://cseweb.ucsd.edu//~tullsen/index.html">Prof. Dean Tullsen</a> &middot; UC San Diego</div>
+  </div>
+</div>
 
 ---------------------

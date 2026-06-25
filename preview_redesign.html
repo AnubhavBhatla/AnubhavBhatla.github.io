@@ -2185,6 +2185,104 @@ a {
   background: var(--global-divider-color);
 }
 
+.research-interests {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin: 1.25rem 0 1.75rem;
+}
+
+@media (max-width: 576px) {
+  .research-interests {
+    grid-template-columns: 1fr;
+  }
+}
+.research-interests .ri-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 14px;
+  background-color: var(--global-card-bg-color);
+  padding: 1.15rem 1.15rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: transform 0.28s cubic-bezier(0.22, 0.61, 0.36, 1), box-shadow 0.28s ease, border-color 0.28s ease;
+}
+.research-interests .ri-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+  border-color: rgba(163, 31, 52, 0.3);
+}
+
+.research-interests .ri-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(163, 31, 52, 0.09);
+  color: var(--global-theme-color);
+  font-size: 1.15rem;
+  margin-bottom: 0.8rem;
+}
+.research-interests .ri-icon i {
+  color: var(--global-theme-color);
+}
+
+.research-interests .ri-title {
+  display: block;
+  font-family: "Lora", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.02rem;
+  line-height: 1.25;
+  color: var(--global-text-color);
+}
+
+.research-groups {
+  max-width: 640px;
+  margin: 0.5rem 0 1.25rem;
+}
+.research-groups .rg-item {
+  position: relative;
+  padding: 13px 0 13px 22px;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+.research-groups .rg-item:last-child {
+  border-bottom: 0;
+}
+.research-groups .rg-item::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  top: 13px;
+  color: var(--global-theme-color);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+.research-groups .rg-name {
+  font-size: 1rem;
+  line-height: 1.45;
+  color: var(--global-text-color);
+}
+.research-groups .rg-name a {
+  font-weight: 600;
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+.research-groups .rg-name a:hover {
+  text-decoration: underline;
+}
+.research-groups .rg-meta {
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+  margin-top: 2px;
+}
+.research-groups .rg-meta a {
+  color: var(--global-text-color-light);
+  text-decoration: none;
+}
+.research-groups .rg-meta a:hover {
+  color: var(--global-theme-color);
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -2199,7 +2297,6 @@ a {
     transform: none !important;
   }
 }
-/* preview-only helpers */
 body { padding-top: 84px; }
 .preview-banner { display:flex; align-items:center; justify-content:center; gap:14px; background: var(--global-code-bg-color); color: var(--global-text-color); font-family:'Inter',sans-serif; font-size:0.8rem; text-align:center; padding:7px 10px; position:fixed; top:0; left:0; right:0; z-index:2000; border-bottom:1px solid var(--global-divider-color); }
 .preview-banner button { font-family:'Inter',sans-serif; font-size:0.78rem; font-weight:500; cursor:pointer; border:1px solid var(--global-theme-color); color:var(--global-theme-color); background:transparent; border-radius:999px; padding:3px 12px; transition:all .2s ease; }
@@ -2238,6 +2335,19 @@ nav.navbar { top: 36px; }
       </div>
       <div class="clearfix">
         <p>Hey! I am Anubhav, a first-year EECS Ph.D. student at the Massachusetts Institute of Technology with Prof. Mengjia Yan. I work on the reliability of accelerators against silent data corruptions, and have previously explored hardware security.</p>
+        <h2>Research Interests</h2>
+        <div class="research-interests">
+          <div class="ri-card"><span class="ri-icon"><i class="fas fa-microchip"></i></span><span class="ri-title">Computer Systems &amp; Architecture</span></div>
+          <div class="ri-card"><span class="ri-icon"><i class="fas fa-shield-halved"></i></span><span class="ri-title">Reliability</span></div>
+          <div class="ri-card"><span class="ri-icon"><i class="fas fa-lock"></i></span><span class="ri-title">Hardware Security</span></div>
+        </div>
+        <p>In pursuit of these interests, I have been a part of the following research groups:</p>
+        <div class="research-groups">
+          <div class="rg-item"><div class="rg-name"><a href="javascript:void(0)">MATCHA</a> &mdash; Microarchitecture Attacks and Challenges Group</div><div class="rg-meta"><a href="javascript:void(0)">Prof. Mengjia Yan</a> &middot; MIT</div></div>
+          <div class="rg-item"><div class="rg-name"><a href="javascript:void(0)">CASPER</a> &mdash; Computer Architecture for Security and Performance Group</div><div class="rg-meta"><a href="javascript:void(0)">Prof. Biswabandan Panda</a> &middot; IIT Bombay</div></div>
+          <div class="rg-item"><div class="rg-name"><a href="javascript:void(0)">Memory Systems Lab</a></div><div class="rg-meta"><a href="javascript:void(0)">Prof. Moinuddin Qureshi</a> &middot; Georgia Tech</div></div>
+          <div class="rg-item"><div class="rg-name"><a href="javascript:void(0)">PACL</a> &mdash; High-Performance Processor Architecture and Compilation Lab</div><div class="rg-meta"><a href="javascript:void(0)">Prof. Dean Tullsen</a> &middot; UC San Diego</div></div>
+        </div>
       </div>
       <h2><a href="javascript:void(0)" style="color: inherit;">News</a></h2>
       <div class="news"><div class="table-responsive"><table class="table table-sm table-borderless">
@@ -2264,13 +2374,13 @@ nav.navbar { top: 36px; }
         <h3><a class="post-title" href="javascript:void(0)">Grad Applications 101</a></h3>
         <p>A (not so short) summary of everything I learned and experienced about the graduate application process.</p>
         <p class="post-meta">4 min read &nbsp;&middot;&nbsp; October 3, 2025</p>
-        <p class="post-tags"><a href="javascript:void(0)"><i class="fas fa-calendar fa-sm"></i> 2025</a> &nbsp;&middot;&nbsp; <a href="javascript:void(0)"><i class="fas fa-hashtag fa-sm"></i> academics</a> &nbsp;&middot;&nbsp; <a href="javascript:void(0)"><i class="fas fa-tag fa-sm"></i> blog</a></p>
+        <p class="post-tags"><a href="javascript:void(0)"><i class="fas fa-calendar fa-sm"></i> 2025</a> &nbsp;&middot;&nbsp; <a href="javascript:void(0)"><i class="fas fa-hashtag fa-sm"></i> academics</a></p>
       </li>
       <li>
         <h3><a class="post-title" href="javascript:void(0)">Dual Degree Conversion @IITB</a></h3>
         <p>Everything you need to know about converting from a B.Tech. to a Dual Degree Program at EE, IIT Bombay.</p>
         <p class="post-meta">14 min read &nbsp;&middot;&nbsp; December 8, 2024</p>
-        <p class="post-tags"><a href="javascript:void(0)"><i class="fas fa-calendar fa-sm"></i> 2024</a> &nbsp;&middot;&nbsp; <a href="javascript:void(0)"><i class="fas fa-hashtag fa-sm"></i> academics</a> &nbsp;&middot;&nbsp; <a href="javascript:void(0)"><i class="fas fa-tag fa-sm"></i> blog</a></p>
+        <p class="post-tags"><a href="javascript:void(0)"><i class="fas fa-calendar fa-sm"></i> 2024</a> &nbsp;&middot;&nbsp; <a href="javascript:void(0)"><i class="fas fa-hashtag fa-sm"></i> academics</a></p>
       </li>
     </ul>
   </div>

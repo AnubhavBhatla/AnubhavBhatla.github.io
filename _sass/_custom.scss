@@ -645,6 +645,115 @@ a {
 }
 
 // ---------------------------------------------------------------------------
+// About — research interest cards
+// ---------------------------------------------------------------------------
+
+.research-interests {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin: 1.25rem 0 1.75rem;
+}
+
+@media (max-width: 576px) {
+  .research-interests { grid-template-columns: 1fr; }
+}
+
+.research-interests .ri-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 14px;
+  background-color: var(--global-card-bg-color);
+  padding: 1.15rem 1.15rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: transform 0.28s cubic-bezier(0.22, 0.61, 0.36, 1),
+              box-shadow 0.28s ease, border-color 0.28s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+    border-color: rgba($cardinal-color, 0.30);
+  }
+}
+
+.research-interests .ri-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba($cardinal-color, 0.09);
+  color: var(--global-theme-color);
+  font-size: 1.15rem;
+  margin-bottom: 0.8rem;
+
+  i { color: var(--global-theme-color); }
+}
+
+.research-interests .ri-title {
+  display: block;
+  font-family: "Lora", Georgia, serif;
+  font-weight: 600;
+  font-size: 1.02rem;
+  line-height: 1.25;
+  color: var(--global-text-color);
+}
+
+// ---------------------------------------------------------------------------
+// About — research groups (lightweight affiliation list)
+// ---------------------------------------------------------------------------
+
+.research-groups {
+  max-width: 640px;
+  margin: 0.5rem 0 1.25rem;
+
+  .rg-item {
+    position: relative;
+    padding: 13px 0 13px 22px;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child { border-bottom: 0; }
+
+    &::before {
+      content: "\25B8";
+      position: absolute;
+      left: 0;
+      top: 13px;
+      color: var(--global-theme-color);
+      font-size: 0.95rem;
+      line-height: 1.45;
+    }
+  }
+
+  .rg-name {
+    font-size: 1rem;
+    line-height: 1.45;
+    color: var(--global-text-color);
+
+    a {
+      font-weight: 600;
+      color: var(--global-theme-color);
+      text-decoration: none;
+
+      &:hover { text-decoration: underline; }
+    }
+  }
+
+  .rg-meta {
+    font-size: 0.82rem;
+    color: var(--global-text-color-light);
+    margin-top: 2px;
+
+    a {
+      color: var(--global-text-color-light);
+      text-decoration: none;
+
+      &:hover { color: var(--global-theme-color); }
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Respect reduced-motion preferences
 // ---------------------------------------------------------------------------
 
