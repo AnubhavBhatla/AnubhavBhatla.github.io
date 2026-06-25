@@ -315,6 +315,13 @@ html {
   justify-content: center;
 }
 
+// the GitHub-icon row uses Bootstrap .row (negative side margins); flush it with the text
+.projects .card-item .card-body > .row {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.5rem;
+}
+
 // project section category headers
 .projects h2.category {
   font-family: "Inter", sans-serif;
