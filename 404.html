@@ -2,8 +2,11 @@
 layout: page
 permalink: /404.html
 title: "Page not found"
-description: "Looks like there has been a mistake. Nothing exists here."
-redirect: true
+description: "Oops — the page you are looking for doesn't exist."
 ---
 
-<p>You will be redirected to the main page within 3 seconds. If not redirected, please go back to the <a href="{{ site.baseurl }}/">home page</a>.</p>
+<div class="error-page">
+  <h1 class="error-code">404</h1>
+  <p class="error-msg">Oops! The page you're looking for doesn't exist or has moved.</p>
+  <a class="error-home" href="{{ '/' | relative_url }}">&larr; Back to home</a>
+</div>

@@ -939,11 +939,67 @@ footer.sticky-bottom {
   display: inline-block;
 }
 
-// widen the (inline-sized) year column so the badge isn't clipped
-.cv .row > .col-md-2.text-center {
+// CV entries: keep the year on the left with title/institution/bullets to its right
+.cv .card .list-group-item > .row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.cv .card .list-group-item > .row > .col-md-2.text-center {
+  flex: 0 0 auto;
   width: auto !important;
-  min-width: 108px;
+  max-width: none;
+  min-width: 100px;
   padding-right: 0;
+  text-align: left !important;
+}
+
+.cv .card .list-group-item > .row > .col-md-10 {
+  flex: 1 1 auto;
+  max-width: none;
+  margin-top: 0 !important;
+}
+
+// ---------------------------------------------------------------------------
+// 404 page
+// ---------------------------------------------------------------------------
+
+.error-page {
+  text-align: center;
+  padding: 3.5rem 1rem 5rem;
+
+  .error-code {
+    font-family: "Lora", Georgia, serif;
+    font-weight: 700;
+    font-size: 7rem;
+    line-height: 1;
+    color: var(--global-theme-color);
+    margin-bottom: 0.5rem;
+  }
+
+  .error-msg {
+    font-size: 1.15rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 1.75rem;
+  }
+
+  .error-home {
+    display: inline-block;
+    font-weight: 500;
+    color: var(--global-theme-color);
+    border: 1px solid var(--global-theme-color);
+    border-radius: 999px;
+    padding: 8px 22px;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      background-color: var(--global-theme-color);
+      color: #fff;
+      text-decoration: none;
+    }
+  }
 }
 
 // ---------------------------------------------------------------------------

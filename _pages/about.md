@@ -13,7 +13,6 @@ profile:
     <div class="profile-actions">
       <a href="/assets/pdf/CV.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> CV</a>
       <a href="https://scholar.google.com/citations?user=TxN4QnkAAAAJ"><i class="ai ai-google-scholar" aria-hidden="true"></i> Scholar</a>
-      <a href="https://github.com/AnubhavBhatla"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
       <a href="mailto:bhatlaanubhav2001@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
     </div>
 
