@@ -286,9 +286,19 @@ html {
   font-family: "Lora", Georgia, serif;
 }
 
-// Project / research cards (horizontal): natural images, text top-aligned with the figure
+// Project / research cards (horizontal): image centered in its half, text beside it
 .projects .card-item .card .row.g-0 {
-  align-items: flex-start;
+  align-items: stretch;
+}
+
+.projects .card-item .card-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects .card-item .card-img img {
+  width: 100%;
 }
 
 // project section category headers
@@ -689,9 +699,13 @@ a {
 }
 
 .cv .card .list-group .list-group-item {
-  position: relative;
   border: 0;
   background: transparent;
+}
+
+// cardinal dot markers only for plain list items (e.g. Awards), NOT time_table rows
+.cv .card .list-group .list-group-item:not(:has(.row)) {
+  position: relative;
   padding: 0.4rem 0.5rem 0.4rem 1.5rem;
 
   &::before {
