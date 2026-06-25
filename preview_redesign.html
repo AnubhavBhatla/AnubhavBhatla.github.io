@@ -2447,10 +2447,58 @@ footer.sticky-bottom {
   display: inline-block;
 }
 
-.cv .row > .col-md-2.text-center {
+.cv .card .list-group-item > .row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.cv .card .list-group-item > .row > .col-md-2.text-center {
+  flex: 0 0 auto;
   width: auto !important;
-  min-width: 108px;
+  max-width: none;
+  min-width: 100px;
   padding-right: 0;
+  text-align: left !important;
+}
+
+.cv .card .list-group-item > .row > .col-md-10 {
+  flex: 1 1 auto;
+  max-width: none;
+  margin-top: 0 !important;
+}
+
+.error-page {
+  text-align: center;
+  padding: 3.5rem 1rem 5rem;
+}
+.error-page .error-code {
+  font-family: "Lora", Georgia, serif;
+  font-weight: 700;
+  font-size: 7rem;
+  line-height: 1;
+  color: var(--global-theme-color);
+  margin-bottom: 0.5rem;
+}
+.error-page .error-msg {
+  font-size: 1.15rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 1.75rem;
+}
+.error-page .error-home {
+  display: inline-block;
+  font-weight: 500;
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  padding: 8px 22px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.error-page .error-home:hover {
+  background-color: var(--global-theme-color);
+  color: #fff;
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2514,7 +2562,6 @@ nav.navbar { top: 36px; }
           <div class="profile-actions">
             <a href="assets/pdf/CV.pdf"><i class="fas fa-file-pdf"></i> CV</a>
             <a href="javascript:void(0)"><i class="ai ai-google-scholar"></i> Scholar</a>
-            <a href="javascript:void(0)"><i class="fab fa-github"></i> GitHub</a>
             <a href="javascript:void(0)"><i class="fas fa-envelope"></i> Email</a>
           </div>
         </div>
