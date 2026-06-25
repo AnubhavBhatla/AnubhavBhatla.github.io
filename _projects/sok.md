@@ -2,10 +2,9 @@
 layout: page
 title: "Understanding the Security of Secure Randomized Caches"
 description: "Identifying security knobs in modern secure randomized caches and exploring the design space of security knobs"
-img: assets/img/knobs.png
+img: assets/img/knobs_card.png
 importance: 2
 category: research
-github: https://github.com/AnubhavBhatla/systematization-of-secure-randomized-caches
 related_publications: sok, maya, mirage
 ---
 

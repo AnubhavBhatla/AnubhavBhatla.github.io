@@ -2,7 +2,7 @@
 layout: page
 title: "Branch Predictor Partitioning for Performance"
 description: "Optimizing the NOP padding algorithm and working on identifying hot branches to improve their prediction rates"
-img: assets/img/tage.png
+img: assets/img/tage_card.png
 importance: 5
 category: research
 related_publications: halfnhalf

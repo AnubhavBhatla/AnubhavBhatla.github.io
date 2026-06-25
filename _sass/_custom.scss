@@ -286,40 +286,9 @@ html {
   font-family: "Lora", Georgia, serif;
 }
 
-// Research — horizontal cards: uniform image height + aligned text
+// Project / research cards (horizontal): natural images, text top-aligned with the figure
 .projects .card-item .card .row.g-0 {
-  align-items: stretch;
-}
-
-.projects .card-item .card-img {
-  overflow: hidden;
-  min-height: 172px;
-}
-
-.projects .card-item .card-img figure,
-.projects .card-item .card-img picture {
-  display: block;
-  height: 100%;
-  margin: 0;
-}
-
-.projects .card-item .card-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.projects .card-item .card .row.g-0 > .col-md-6:last-child {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-// the GitHub-icon row uses Bootstrap .row (negative side margins); flush it with the text
-.projects .card-item .card-body > .row {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0.5rem;
+  align-items: flex-start;
 }
 
 // project section category headers

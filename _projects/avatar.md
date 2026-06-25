@@ -2,7 +2,7 @@
 layout: page
 title: "Practical and Secure Cache Design at Ultra-Low Cost"
 description: "Proposed the Avatar cache: A morphable LLC design which provides security-on-demand with minimal design complexity and ultra-low cost"
-img: assets/img/mirage.png
+img: assets/img/mirage_card.png
 importance: 3
 category: research
 related_publications: avatar, maya, mirage

@@ -2,7 +2,7 @@
 layout: page
 title: "Reliability of Accelerators against SDCs"
 description: "Working on understanding the reliability of SoTA accelerators against silent data corruptions, and exploring the design space of mitigations"
-img: assets/img/sdc.png
+img: assets/img/sdc_card.png
 importance: 2
 category: research
 related_publications:

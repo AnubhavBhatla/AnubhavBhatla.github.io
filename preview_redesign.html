@@ -1893,37 +1893,7 @@ html {
 }
 
 .projects .card-item .card .row.g-0 {
-  align-items: stretch;
-}
-
-.projects .card-item .card-img {
-  overflow: hidden;
-  min-height: 172px;
-}
-
-.projects .card-item .card-img figure,
-.projects .card-item .card-img picture {
-  display: block;
-  height: 100%;
-  margin: 0;
-}
-
-.projects .card-item .card-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.projects .card-item .card .row.g-0 > .col-md-6:last-child {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.projects .card-item .card-body > .row {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0.5rem;
+  align-items: flex-start;
 }
 
 .projects h2.category {
@@ -2592,12 +2562,12 @@ nav.navbar { top: 36px; }
     <header class="post-header"><h1 class="post-title">Research</h1><p class="post-description">Building practical, secure, and reliable computer systems — from secure cache design to accelerator reliability and branch-predictor security.</p></header>
     <article>
     <div class="projects"><div class="container"><div class="row row-cols-1">
-      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/sdc.png" alt="project thumbnail" style="width:100%;"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Reliability of Accelerators against SDCs</h3><p class="card-text">Working on understanding the reliability of SoTA accelerators against silent data corruptions, and exploring the design space of mitigations.</p></div></div></div></div></a></div>
-      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/knobs.png" alt="project thumbnail" style="width:100%;"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Understanding the Security of Secure Randomized Caches</h3><p class="card-text">Identifying security knobs in modern secure randomized caches and exploring the design space of security knobs.</p><div class="row ml-1 mr-1 p-0"><div class="github-icon"><div class="icon"><a href="javascript:void(0)"><i class="fab fa-github gh-icon"></i></a></div></div></div></div></div></div></div></a></div>
-      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/mirage.png" alt="project thumbnail" style="width:100%;"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Practical and Secure Cache Design at Ultra-Low Cost</h3><p class="card-text">Proposed the Avatar cache: a morphable LLC design which provides security-on-demand with minimal design complexity and ultra-low cost.</p></div></div></div></div></a></div>
-      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/maya.png" alt="project thumbnail" style="width:100%;"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Hardware-Efficient Secure Cache Design</h3><p class="card-text">Proposed the Maya Cache: a secure and storage-efficient fully-associative last-level cache design.</p><div class="row ml-1 mr-1 p-0"><div class="github-icon"><div class="icon"><a href="javascript:void(0)"><i class="fab fa-github gh-icon"></i></a></div></div></div></div></div></div></div></a></div>
-      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/tage.png" alt="project thumbnail" style="width:100%;"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Branch Predictor Partitioning for Performance</h3><p class="card-text">Optimizing the NOP padding algorithm and working on identifying hot branches to improve their prediction rates.</p></div></div></div></div></a></div>
-      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/passp.png" alt="project thumbnail" style="width:100%;"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Secure Cache-Line Reallocation</h3><p class="card-text">Exploring the idea of preferentially re-allocating dead blocks for improving performance.</p></div></div></div></div></a></div>
+      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/sdc_card.png" alt="project thumbnail"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Reliability of Accelerators against SDCs</h3><p class="card-text">Understanding the reliability of state-of-the-art accelerators against silent data corruptions, and exploring the design space of mitigations.</p></div></div></div></div></a></div>
+      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/knobs_card.png" alt="project thumbnail"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Understanding the Security of Secure Randomized Caches</h3><p class="card-text">Identifying security knobs in modern secure randomized caches and exploring their design space.</p></div></div></div></div></a></div>
+      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/mirage_card.png" alt="project thumbnail"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Practical and Secure Cache Design at Ultra-Low Cost</h3><p class="card-text">The Avatar cache: a morphable LLC design which provides security-on-demand with minimal design complexity and ultra-low cost.</p></div></div></div></div></a></div>
+      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/maya_card.png" alt="project thumbnail"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Hardware-Efficient Secure Cache Design</h3><p class="card-text">The Maya Cache: a secure and storage-efficient fully-associative last-level cache design.</p></div></div></div></div></a></div>
+      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/tage_card.png" alt="project thumbnail"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Branch Predictor Partitioning for Performance</h3><p class="card-text">Optimizing the NOP padding algorithm and identifying hot branches to improve their prediction rates.</p></div></div></div></div></a></div>
+      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/passp_card.png" alt="project thumbnail"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Secure Cache-Line Reallocation</h3><p class="card-text">Preferentially re-allocating dead blocks for improving performance.</p></div></div></div></div></a></div>
     </div></div></div>
     </article>
   </div>
@@ -2659,15 +2629,15 @@ nav.navbar { top: 36px; }
     <article>
     <div class="projects">
       <h2 class="category">Technical Projects</h2>
-      <div class="row">
-        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" style="width:100%;height:150px;object-fit:cover;" src="assets/img/maya.png" alt=""><div class="card-body"><h3 class="card-title">The Maya Cache</h3><p class="card-text">A storage-efficient and secure fully-associative last-level cache.</p></div></div></a></div>
-        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" style="width:100%;height:150px;object-fit:cover;" src="assets/img/digital.webp" alt=""><div class="card-body"><h3 class="card-title">Digital Circuit Design</h3><p class="card-text">Designing and simulating digital logic circuits and finite state machines in VHDL.</p></div></div></a></div>
-        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" style="width:100%;height:150px;object-fit:cover;" src="assets/img/micro.png" alt=""><div class="card-body"><h3 class="card-title">Microprocessor Implementations</h3><p class="card-text">Programming and interfacing the Intel 8085 microprocessor in assembly.</p></div></div></a></div>
-      </div>
+      <div class="container"><div class="row row-cols-1">
+        <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/maya.png" alt="project thumbnail"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">The Maya Cache</h3><p class="card-text">A storage-efficient and secure fully-associative last-level cache.</p></div></div></div></div></a></div>
+        <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/digital.webp" alt="project thumbnail"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Digital Circuit Design</h3><p class="card-text">Designing and simulating digital logic circuits and finite state machines in VHDL.</p></div></div></div></div></a></div>
+        <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/micro.png" alt="project thumbnail"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Microprocessor Implementations</h3><p class="card-text">Programming and interfacing the Intel 8085 microprocessor in assembly.</p></div></div></div></div></a></div>
+      </div></div>
       <h2 class="category">Reading Projects</h2>
-      <div class="row">
-        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" style="width:100%;height:150px;object-fit:cover;" src="assets/img/gpgpu.png" alt=""><div class="card-body"><h3 class="card-title">General-Purpose GPUs</h3><p class="card-text">An adaptive LLC caching scheme for general-purpose GPUs.</p></div></div></a></div>
-      </div>
+      <div class="container"><div class="row row-cols-1">
+        <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/gpgpu.png" alt="project thumbnail"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">General-Purpose GPUs</h3><p class="card-text">An adaptive LLC caching scheme for general-purpose GPUs.</p></div></div></div></div></a></div>
+      </div></div>
     </div>
     </article>
   </div>
