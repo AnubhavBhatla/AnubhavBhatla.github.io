@@ -1893,7 +1893,17 @@ html {
 }
 
 .projects .card-item .card .row.g-0 {
-  align-items: flex-start;
+  align-items: stretch;
+}
+
+.projects .card-item .card-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects .card-item .card-img img {
+  width: 100%;
 }
 
 .projects h2.category {
@@ -2226,12 +2236,15 @@ a {
 }
 
 .cv .card .list-group .list-group-item {
-  position: relative;
   border: 0;
   background: transparent;
+}
+
+.cv .card .list-group .list-group-item:not(:has(.row)) {
+  position: relative;
   padding: 0.4rem 0.5rem 0.4rem 1.5rem;
 }
-.cv .card .list-group .list-group-item::before {
+.cv .card .list-group .list-group-item:not(:has(.row))::before {
   content: "";
   position: absolute;
   left: 0.45rem;
