@@ -2185,9 +2185,13 @@ a {
   background: var(--global-divider-color);
 }
 
+.ri-block {
+  clear: both;
+}
+
 .research-interests {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   gap: 14px;
   margin: 1.25rem 0 1.75rem;
 }
@@ -2237,6 +2241,7 @@ a {
 }
 
 .research-groups {
+  clear: both;
   max-width: 640px;
   margin: 0.5rem 0 1.25rem;
 }
@@ -2283,6 +2288,26 @@ a {
   color: var(--global-theme-color);
 }
 
+.course-catalog ul li strong {
+  color: var(--global-theme-color);
+  font-weight: 600;
+}
+
+.publications ol.bibliography li .preview {
+  border-radius: 6px;
+  transition: transform 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.publications ol.bibliography li:hover .preview {
+  transform: scale(1.03);
+}
+
+footer.fixed-bottom .container,
+footer.sticky-bottom {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.01em;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -2305,6 +2330,7 @@ nav.navbar { top: 36px; }
 .navbar-nav .nav-link { cursor: pointer; }
 .pp-page { display:none; }
 .pp-thumb { width:100%; height:150px; object-fit:cover; }
+.navbar-brand.social { font-size:1.2rem; display:inline-flex; gap:10px; align-items:center; margin-left:14px; }
 </style>
 </head>
 <body class="fixed-top-nav">
@@ -2321,6 +2347,14 @@ nav.navbar { top: 36px; }
       <li class="nav-item"><a class="nav-link" data-page="academics" onclick="showPage('academics')">Academics</a></li>
       <li class="nav-item"><a class="nav-link" data-page="cv" onclick="showPage('cv')">CV</a></li>
     </ul>
+    <span class="navbar-brand social">
+      <a href="javascript:void(0)" title="email"><i class="fas fa-envelope"></i></a>
+      <a href="javascript:void(0)" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="javascript:void(0)" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="javascript:void(0)" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="javascript:void(0)" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="javascript:void(0)" title="DBLP"><i class="ai ai-dblp"></i></a>
+    </span>
   </div>
 </nav>
 <div class="container mt-5">
@@ -2334,12 +2368,16 @@ nav.navbar { top: 36px; }
         <div class="more-info"><p>Cambridge, Massachusetts</p></div>
       </div>
       <div class="clearfix">
-        <p>Hey! I am Anubhav, a first-year EECS Ph.D. student at the Massachusetts Institute of Technology with Prof. Mengjia Yan. I work on the reliability of accelerators against silent data corruptions, and have previously explored hardware security.</p>
-        <h2>Research Interests</h2>
-        <div class="research-interests">
-          <div class="ri-card"><span class="ri-icon"><i class="fas fa-microchip"></i></span><span class="ri-title">Computer Systems &amp; Architecture</span></div>
-          <div class="ri-card"><span class="ri-icon"><i class="fas fa-shield-halved"></i></span><span class="ri-title">Reliability</span></div>
-          <div class="ri-card"><span class="ri-icon"><i class="fas fa-lock"></i></span><span class="ri-title">Hardware Security</span></div>
+        <p>Hey! I am Anubhav, a first-year EECS Ph.D. student at the Massachusetts Institute of Technology with Prof. Mengjia Yan. I previously completed my Bachelors and Masters from the Department of Electrical Engineering, IIT Bombay, with Prof. Biswabandan Panda as my thesis advisor.</p>
+        <p>I am deeply interested in the research area of Computer Architecture, which involves a good mix of fascinating topics in Electrical Engineering and Computer Science. I am currently working on the reliability of accelerators against silent data corruptions, and have previously explored hardware security, designing cache structures to ensure security against various side-channel attacks.</p>
+        <p>Outside of academics, I enjoy going to the gym, reading books (mostly fiction) and playing sports such as tennis, squash, and badminton. I have also completed one year of training under the National Cadet Corps (NCC) at IIT Bombay.</p>
+        <div class="ri-block">
+          <h2>Research Interests</h2>
+          <div class="research-interests">
+            <div class="ri-card"><span class="ri-icon"><i class="fas fa-microchip"></i></span><span class="ri-title">Computer Systems &amp; Architecture</span></div>
+            <div class="ri-card"><span class="ri-icon"><i class="fas fa-shield-halved"></i></span><span class="ri-title">Reliability</span></div>
+            <div class="ri-card"><span class="ri-icon"><i class="fas fa-lock"></i></span><span class="ri-title">Hardware Security</span></div>
+          </div>
         </div>
         <p>In pursuit of these interests, I have been a part of the following research groups:</p>
         <div class="research-groups">
@@ -2357,6 +2395,7 @@ nav.navbar { top: 36px; }
       </table></div></div>
       <div class="social"><div class="contact-icons">
         <a href="javascript:void(0)"><i class="fas fa-envelope"></i></a>
+        <a href="javascript:void(0)"><i class="ai ai-google-scholar"></i></a>
         <a href="javascript:void(0)"><i class="fab fa-github"></i></a>
         <a href="javascript:void(0)"><i class="fab fa-linkedin"></i></a>
         <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
@@ -2423,13 +2462,12 @@ nav.navbar { top: 36px; }
       <h2 class="category">Technical Projects</h2>
       <div class="row">
         <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" src="assets/img/maya.png" alt=""><div class="card-body"><h3 class="card-title">The Maya Cache</h3><p class="card-text">A storage-efficient and secure fully-associative last-level cache.</p></div></div></a></div>
-        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" src="assets/img/digital.webp" alt=""><div class="card-body"><h3 class="card-title">Digital Circuit Design</h3><p class="card-text">Finite state machines and digital systems in VHDL.</p></div></div></a></div>
-        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" src="assets/img/micro.png" alt=""><div class="card-body"><h3 class="card-title">Microprocessor Implementations</h3><p class="card-text">8085 assembly and microprocessor lab work.</p></div></div></a></div>
+        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" src="assets/img/digital.webp" alt=""><div class="card-body"><h3 class="card-title">Digital Circuit Design</h3><p class="card-text">Designing and simulating digital logic circuits and finite state machines in VHDL.</p></div></div></a></div>
+        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" src="assets/img/micro.png" alt=""><div class="card-body"><h3 class="card-title">Microprocessor Implementations</h3><p class="card-text">Programming and interfacing the Intel 8085 microprocessor in assembly.</p></div></div></a></div>
       </div>
       <h2 class="category">Reading Projects</h2>
       <div class="row">
         <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" src="assets/img/gpgpu.png" alt=""><div class="card-body"><h3 class="card-title">General-Purpose GPUs</h3><p class="card-text">An adaptive LLC caching scheme for general-purpose GPUs.</p></div></div></a></div>
-        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" src="assets/img/os.png" alt=""><div class="card-body"><h3 class="card-title">Operating Systems</h3><p class="card-text">Reading project on operating-system internals.</p></div></div></a></div>
       </div>
     </div>
     </article>
@@ -2467,7 +2505,7 @@ nav.navbar { top: 36px; }
         <hr>
         <ul>
           <li><a href="javascript:void(0)">CS347</a> - Operating Systems</li>
-          <li><a href="javascript:void(0)">CS683</a> - Advanced Computer Architecture</li>
+          <li><strong>EE691</strong> - Research and Development Project</li>
           <li><a href="javascript:void(0)">EE748</a> - Advanced Topics in Computer Architecture</li>
         </ul>
         <h3>VLSI</h3>
