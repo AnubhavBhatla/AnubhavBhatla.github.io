@@ -231,6 +231,21 @@ html {
   }
 }
 
+// "all news →" link under the homepage news list
+.news-more {
+  margin-top: 0.6rem;
+  text-align: right;
+  font-size: 0.85rem;
+  font-weight: 500;
+
+  a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Cards (projects, repos, featured) — depth + hover lift + image zoom
 // ---------------------------------------------------------------------------
@@ -644,6 +659,122 @@ a {
   background: var(--global-divider-color);
 }
 
+// CV — beautified bullet points (cardinal markers)
+.cv .card ul.items {
+  list-style: none;
+  padding-left: 1.3rem;
+  margin-bottom: 0;
+}
+
+.cv .card ul.items > li {
+  position: relative;
+  margin-bottom: 0.4rem;
+  line-height: 1.55;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -1.05rem;
+    top: 0.62em;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--global-theme-color);
+  }
+}
+
+.cv .card .list-group .list-group-item {
+  position: relative;
+  border: 0;
+  background: transparent;
+  padding: 0.4rem 0.5rem 0.4rem 1.5rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0.45rem;
+    top: 0.95em;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--global-theme-color);
+  }
+}
+
+// CV — skill icon cards
+.skill-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 12px;
+}
+
+.skill-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  background-color: var(--global-card-bg-color);
+  padding: 0.9rem 1rem;
+
+  .skill-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Lora", Georgia, serif;
+    font-weight: 600;
+    color: var(--global-text-color);
+    margin-bottom: 0.45rem;
+
+    i { color: var(--global-theme-color); }
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--global-text-color-light);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// About — profile quick-action buttons (under the photo)
+// ---------------------------------------------------------------------------
+
+.profile .more-info .profile-location {
+  display: block;
+  margin: 0 0 0.65rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+}
+
+.profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.profile-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  padding: 5px 12px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    background-color: var(--global-theme-color);
+    color: #fff;
+    text-decoration: none;
+  }
+
+  i { color: inherit; }
+}
+
 // ---------------------------------------------------------------------------
 // About — research interest cards
 // ---------------------------------------------------------------------------
@@ -786,6 +917,28 @@ footer.fixed-bottom .container,
 footer.sticky-bottom {
   font-family: "Inter", sans-serif;
   letter-spacing: 0.01em;
+}
+
+// CV — year badges that fit date ranges on a single line
+.cv .table-cv .badge,
+.cv .badge-toc {
+  background-color: var(--global-theme-color) !important;
+  color: #fff !important;
+  white-space: nowrap;
+  min-width: 0 !important;
+  font-size: 0.7rem;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em;
+  padding: 0.32rem 0.6rem;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+// widen the (inline-sized) year column so the badge isn't clipped
+.cv .row > .col-md-2.text-center {
+  width: auto !important;
+  min-width: 108px;
+  padding-right: 0;
 }
 
 // ---------------------------------------------------------------------------

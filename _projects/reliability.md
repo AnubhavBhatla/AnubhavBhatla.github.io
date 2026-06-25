@@ -19,7 +19,7 @@ related_publications:
 </div>
 </center>
 
-_Guide:[Prof. Mengjia Yan](https://www.cse.iitb.ac.in/~biswa/)_  
+_Guide: [Prof. Mengjia Yan](https://people.csail.mit.edu/mengjia/)_  
 
 _In collaboration with AMD and [Prof. Joel Emer](https://people.csail.mit.edu/emer/)_
 

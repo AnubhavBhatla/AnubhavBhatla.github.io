@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: Research
-description:
+description: Building practical, secure, and reliable computer systems — from secure cache design to accelerator reliability and branch-predictor security.
 nav: true
 nav_order: 2
 display_categories: [research]

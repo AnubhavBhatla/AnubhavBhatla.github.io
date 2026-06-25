@@ -1847,6 +1847,20 @@ html {
   animation-delay: 0.36s;
 }
 
+.news-more {
+  margin-top: 0.6rem;
+  text-align: right;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.news-more a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+.news-more a:hover {
+  text-decoration: underline;
+}
+
 .card {
   border: 1px solid var(--global-divider-color);
   border-radius: 14px;
@@ -2185,6 +2199,113 @@ a {
   background: var(--global-divider-color);
 }
 
+.cv .card ul.items {
+  list-style: none;
+  padding-left: 1.3rem;
+  margin-bottom: 0;
+}
+
+.cv .card ul.items > li {
+  position: relative;
+  margin-bottom: 0.4rem;
+  line-height: 1.55;
+}
+.cv .card ul.items > li::before {
+  content: "";
+  position: absolute;
+  left: -1.05rem;
+  top: 0.62em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--global-theme-color);
+}
+
+.cv .card .list-group .list-group-item {
+  position: relative;
+  border: 0;
+  background: transparent;
+  padding: 0.4rem 0.5rem 0.4rem 1.5rem;
+}
+.cv .card .list-group .list-group-item::before {
+  content: "";
+  position: absolute;
+  left: 0.45rem;
+  top: 0.95em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--global-theme-color);
+}
+
+.skill-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 12px;
+}
+
+.skill-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  background-color: var(--global-card-bg-color);
+  padding: 0.9rem 1rem;
+}
+.skill-card .skill-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Lora", Georgia, serif;
+  font-weight: 600;
+  color: var(--global-text-color);
+  margin-bottom: 0.45rem;
+}
+.skill-card .skill-head i {
+  color: var(--global-theme-color);
+}
+.skill-card p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+}
+
+.profile .more-info .profile-location {
+  display: block;
+  margin: 0 0 0.65rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+}
+
+.profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.profile-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 999px;
+  padding: 5px 12px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.profile-actions a:hover {
+  background-color: var(--global-theme-color);
+  color: #fff;
+  text-decoration: none;
+}
+.profile-actions a i {
+  color: inherit;
+}
+
 .ri-block {
   clear: both;
 }
@@ -2308,6 +2429,26 @@ footer.sticky-bottom {
   letter-spacing: 0.01em;
 }
 
+.cv .table-cv .badge,
+.cv .badge-toc {
+  background-color: var(--global-theme-color) !important;
+  color: #fff !important;
+  white-space: nowrap;
+  min-width: 0 !important;
+  font-size: 0.7rem;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em;
+  padding: 0.32rem 0.6rem;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.cv .row > .col-md-2.text-center {
+  width: auto !important;
+  min-width: 108px;
+  padding-right: 0;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -2329,8 +2470,9 @@ body { padding-top: 84px; }
 nav.navbar { top: 36px; }
 .navbar-nav .nav-link { cursor: pointer; }
 .pp-page { display:none; }
-.pp-thumb { width:100%; height:150px; object-fit:cover; }
-.navbar-brand.social { font-size:1.2rem; display:inline-flex; gap:10px; align-items:center; margin-left:14px; }
+.cv-entry { display:flex; gap:14px; margin-bottom:1rem; }
+.cv-entry .cv-yr { flex:0 0 112px; }
+.cv-entry .cv-inst { color:var(--global-text-color-light); font-size:.9rem; }
 </style>
 </head>
 <body class="fixed-top-nav">
@@ -2338,9 +2480,10 @@ nav.navbar { top: 36px; }
 <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
   <div class="container">
     <a class="navbar-brand" href="javascript:void(0)" onclick="showPage('about')">Anubhav Bhatla</a>
-    <ul class="navbar-nav ml-auto flex-nowrap">
+    <ul class="navbar-nav ml-auto flex-wrap justify-content-end">
       <li class="nav-item active"><a class="nav-link" data-page="about" onclick="showPage('about')">About</a></li>
       <li class="nav-item"><a class="nav-link" data-page="blog" onclick="showPage('blog')">Blog</a></li>
+      <li class="nav-item"><a class="nav-link" data-page="research" onclick="showPage('research')">Research</a></li>
       <li class="nav-item"><a class="nav-link" data-page="publications" onclick="showPage('publications')">Publications</a></li>
       <li class="nav-item"><a class="nav-link" data-page="projects" onclick="showPage('projects')">Projects</a></li>
       <li class="nav-item"><a class="nav-link" data-page="teaching" onclick="showPage('teaching')">Teaching</a></li>
@@ -2357,7 +2500,15 @@ nav.navbar { top: 36px; }
     <article>
       <div class="profile float-right">
         <img class="img-fluid z-depth-1 rounded" src="assets/img/Photo_Formal.jpg" alt="Anubhav Bhatla">
-        <div class="more-info"><p>Cambridge, Massachusetts</p></div>
+        <div class="more-info">
+          <p class="profile-location">Cambridge, Massachusetts</p>
+          <div class="profile-actions">
+            <a href="assets/pdf/CV.pdf"><i class="fas fa-file-pdf"></i> CV</a>
+            <a href="javascript:void(0)"><i class="ai ai-google-scholar"></i> Scholar</a>
+            <a href="javascript:void(0)"><i class="fab fa-github"></i> GitHub</a>
+            <a href="javascript:void(0)"><i class="fas fa-envelope"></i> Email</a>
+          </div>
+        </div>
       </div>
       <div class="clearfix">
         <p>Hey! I am Anubhav, a first-year EECS Ph.D. student at the Massachusetts Institute of Technology with Prof. Mengjia Yan. I previously completed my Bachelors and Masters from the Department of Electrical Engineering, IIT Bombay, with Prof. Biswabandan Panda as my thesis advisor.</p>
@@ -2385,6 +2536,7 @@ nav.navbar { top: 36px; }
         <tr><th scope="row">Aug 13, 2025</th><td>Our SoK work at USENIX Security 2025 won the Distinguished Artifact Award!</td></tr>
         <tr><th scope="row">May 29, 2025</th><td>Our SoK paper on secure randomized caches was accepted to USENIX Security '25.</td></tr>
       </table></div></div>
+      <div class="news-more"><a href="javascript:void(0)">all news &rarr;</a></div>
       <div class="social"><div class="contact-icons">
         <a href="javascript:void(0)"><i class="fas fa-envelope"></i></a>
         <a href="javascript:void(0)"><i class="ai ai-google-scholar"></i></a>
@@ -2392,6 +2544,22 @@ nav.navbar { top: 36px; }
         <a href="javascript:void(0)"><i class="fab fa-linkedin"></i></a>
         <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
       </div><div class="contact-note">Feel free to reach out to me. I would love to have a chat!</div></div>
+    </article>
+  </div>
+  </div>
+
+  <div class="pp-page" id="research">
+  <div class="post">
+    <header class="post-header"><h1 class="post-title">Research</h1><p class="post-description">Building practical, secure, and reliable computer systems — from secure cache design to accelerator reliability and branch-predictor security.</p></header>
+    <article>
+    <div class="projects"><div class="container"><div class="row row-cols-1">
+      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/sdc.png" alt="project thumbnail" style="width:100%;"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Reliability of Accelerators against SDCs</h3><p class="card-text">Working on understanding the reliability of SoTA accelerators against silent data corruptions, and exploring the design space of mitigations.</p></div></div></div></div></a></div>
+      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/knobs.png" alt="project thumbnail" style="width:100%;"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Understanding the Security of Secure Randomized Caches</h3><p class="card-text">Identifying security knobs in modern secure randomized caches and exploring the design space of security knobs.</p><div class="row ml-1 mr-1 p-0"><div class="github-icon"><div class="icon"><a href="javascript:void(0)"><i class="fab fa-github gh-icon"></i></a></div></div></div></div></div></div></div></a></div>
+      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/mirage.png" alt="project thumbnail" style="width:100%;"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Practical and Secure Cache Design at Ultra-Low Cost</h3><p class="card-text">Proposed the Avatar cache: a morphable LLC design which provides security-on-demand with minimal design complexity and ultra-low cost.</p></div></div></div></div></a></div>
+      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/maya.png" alt="project thumbnail" style="width:100%;"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Hardware-Efficient Secure Cache Design</h3><p class="card-text">Proposed the Maya Cache: a secure and storage-efficient fully-associative last-level cache design.</p><div class="row ml-1 mr-1 p-0"><div class="github-icon"><div class="icon"><a href="javascript:void(0)"><i class="fab fa-github gh-icon"></i></a></div></div></div></div></div></div></div></a></div>
+      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/tage.png" alt="project thumbnail" style="width:100%;"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Branch Predictor Partitioning for Performance</h3><p class="card-text">Optimizing the NOP padding algorithm and working on identifying hot branches to improve their prediction rates.</p></div></div></div></div></a></div>
+      <div class="card-item col"><a href="javascript:void(0)"><div class="card hoverable"><div class="row g-0"><div class="card-img col-md-6"><img src="assets/img/passp.png" alt="project thumbnail" style="width:100%;"></div><div class="col-md-6"><div class="card-body"><h3 class="card-title">Secure Cache-Line Reallocation</h3><p class="card-text">Exploring the idea of preferentially re-allocating dead blocks for improving performance.</p></div></div></div></div></a></div>
+    </div></div></div>
     </article>
   </div>
   </div>
@@ -2453,13 +2621,13 @@ nav.navbar { top: 36px; }
     <div class="projects">
       <h2 class="category">Technical Projects</h2>
       <div class="row">
-        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" src="assets/img/maya.png" alt=""><div class="card-body"><h3 class="card-title">The Maya Cache</h3><p class="card-text">A storage-efficient and secure fully-associative last-level cache.</p></div></div></a></div>
-        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" src="assets/img/digital.webp" alt=""><div class="card-body"><h3 class="card-title">Digital Circuit Design</h3><p class="card-text">Designing and simulating digital logic circuits and finite state machines in VHDL.</p></div></div></a></div>
-        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" src="assets/img/micro.png" alt=""><div class="card-body"><h3 class="card-title">Microprocessor Implementations</h3><p class="card-text">Programming and interfacing the Intel 8085 microprocessor in assembly.</p></div></div></a></div>
+        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" style="width:100%;height:150px;object-fit:cover;" src="assets/img/maya.png" alt=""><div class="card-body"><h3 class="card-title">The Maya Cache</h3><p class="card-text">A storage-efficient and secure fully-associative last-level cache.</p></div></div></a></div>
+        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" style="width:100%;height:150px;object-fit:cover;" src="assets/img/digital.webp" alt=""><div class="card-body"><h3 class="card-title">Digital Circuit Design</h3><p class="card-text">Designing and simulating digital logic circuits and finite state machines in VHDL.</p></div></div></a></div>
+        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" style="width:100%;height:150px;object-fit:cover;" src="assets/img/micro.png" alt=""><div class="card-body"><h3 class="card-title">Microprocessor Implementations</h3><p class="card-text">Programming and interfacing the Intel 8085 microprocessor in assembly.</p></div></div></a></div>
       </div>
       <h2 class="category">Reading Projects</h2>
       <div class="row">
-        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" src="assets/img/gpgpu.png" alt=""><div class="card-body"><h3 class="card-title">General-Purpose GPUs</h3><p class="card-text">An adaptive LLC caching scheme for general-purpose GPUs.</p></div></div></a></div>
+        <div class="col-sm-4 mb-3"><a href="javascript:void(0)"><div class="card"><img class="pp-thumb" style="width:100%;height:150px;object-fit:cover;" src="assets/img/gpgpu.png" alt=""><div class="card-body"><h3 class="card-title">General-Purpose GPUs</h3><p class="card-text">An adaptive LLC caching scheme for general-purpose GPUs.</p></div></div></a></div>
       </div>
     </div>
     </article>
@@ -2500,13 +2668,6 @@ nav.navbar { top: 36px; }
           <li><strong>EE691</strong> - Research and Development Project</li>
           <li><a href="javascript:void(0)">EE748</a> - Advanced Topics in Computer Architecture</li>
         </ul>
-        <h3>VLSI</h3>
-        <hr>
-        <ul>
-          <li><a href="javascript:void(0)">EE618</a> - CMOS Analog VLSI Design</li>
-          <li><a href="javascript:void(0)">EE671</a> - VLSI Design</li>
-          <li><a href="javascript:void(0)">EE709</a> - Testing and Verification of VLSI Circuits</li>
-        </ul>
       </div>
     </article>
   </div>
@@ -2517,25 +2678,54 @@ nav.navbar { top: 36px; }
     <header class="post-header"><h1 class="post-title">CV <a href="javascript:void(0)" class="float-right"><i class="fas fa-file-pdf"></i></a></h1></header>
     <article>
       <div class="cv">
-        <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">Education</h3>
-          <div>
-            <p style="margin-bottom:.3rem;"><strong>Massachusetts Institute of Technology</strong> — Ph.D. in EECS <span style="float:right;"><span class="badge-toc">2031</span></span></p>
-            <p style="margin-bottom:1rem; font-size:.9rem; color:var(--global-text-color-light);">Doctor of Philosophy in Electrical Engineering and Computer Science</p>
-            <p style="margin-bottom:.3rem;"><strong>Indian Institute of Technology Bombay</strong> — Dual Degree <span style="float:right;"><span class="badge-toc">2025</span></span></p>
-            <p style="margin-bottom:0; font-size:.9rem; color:var(--global-text-color-light);">B.Tech + M.Tech in Electrical Engineering (GPA 9.39/10), Minor in CSE</p>
+        <div class="card mt-3 p-3"><h3 class="card-title font-weight-medium">Research Interests</h3><div>
+          <div class="research-interests">
+            <div class="ri-card"><span class="ri-icon"><i class="fas fa-microchip"></i></span><span class="ri-title">Computer Systems &amp; Architecture</span></div>
+            <div class="ri-card"><span class="ri-icon"><i class="fas fa-shield-halved"></i></span><span class="ri-title">Reliability</span></div>
+            <div class="ri-card"><span class="ri-icon"><i class="fas fa-lock"></i></span><span class="ri-title">Hardware Security</span></div>
           </div>
-        </div>
-        <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">Awards</h3>
-          <div>
-            <ul style="margin-bottom:0;">
-              <li>Intel India Research Fellowship 2024-25</li>
-              <li>Undergraduate Research Award (IIT Bombay)</li>
-              <li>Kishore Vaigyanak Protsahan Yojana (KVPY) fellowship</li>
-            </ul>
+        </div></div>
+
+        <div class="card mt-3 p-3"><h3 class="card-title font-weight-medium">Education</h3><div>
+          <div class="cv-entry"><div class="cv-yr"><span class="badge-toc">2025 - Present</span></div><div><strong>Doctor of Philosophy</strong><br><span class="cv-inst">Massachusetts Institute of Technology</span><ul class="items"><li><span class="item">Ph.D. in Electrical Engineering and Computer Science</span></li><li><span class="item">Advised by Prof. Mengjia Yan (MATCHA Group)</span></li></ul></div></div>
+          <div class="cv-entry"><div class="cv-yr"><span class="badge-toc">2020 - 2025</span></div><div><strong>Bachelor + Master of Technology (Dual Degree)</strong><br><span class="cv-inst">Indian Institute of Technology Bombay</span><ul class="items"><li><span class="item">Integrated B.Tech + M.Tech in Electrical Engineering (GPA: 9.39/10)</span></li><li><span class="item">Minor Degree in Computer Science and Engineering</span></li></ul></div></div>
+        </div></div>
+
+        <div class="card mt-3 p-3"><h3 class="card-title font-weight-medium">Research Experience</h3><div>
+          <div class="cv-entry"><div class="cv-yr"><span class="badge-toc">2025 - Present</span></div><div><strong>Reliability of Accelerators against Silent Data Corruptions</strong><br><span class="cv-inst">Prof. Mengjia Yan, MIT</span><ul class="items"><li><span class="item">Studying the effects of SDCs on CNN accelerators by analyzing faulty model weights and accuracy</span></li><li><span class="item">Analyzing fault models for systolic-array LLM attention accelerators and mitigation tradeoffs</span></li><li><span class="item">In collaboration with AMD and Prof. Joel Emer (MIT)</span></li></ul></div></div>
+          <div class="cv-entry"><div class="cv-yr"><span class="badge-toc">2023 - 2025</span></div><div><strong>Practical and Secure Randomized Last-level Cache Design</strong><br><span class="cv-inst">Prof. Biswabandan Panda, IIT Bombay</span><ul class="items"><li><span class="item">Designed the Maya cache: up to 28% area and 13% energy savings over a non-secure baseline</span></li><li><span class="item">Proposed the Avatar cache: security-on-demand at under 0.2% performance overhead</span></li><li><span class="item">Systematized the security knobs of secure randomized caches (SoK, USENIX Security '25)</span></li></ul></div></div>
+          <div class="cv-entry"><div class="cv-yr"><span class="badge-toc">2024 - Present</span></div><div><strong>Branch Predictor Partitioning for Performance</strong><br><span class="cv-inst">Prof. Dean Tullsen, UC San Diego</span><ul class="items"><li><span class="item">Implementing the Half&amp;Half branch-alignment algorithm on LLVM to partition the predictor across SMT threads</span></li></ul></div></div>
+          <div class="cv-entry"><div class="cv-yr"><span class="badge-toc">2022</span></div><div><strong>Secure Cache-line Reallocation in Partitioned Caches</strong><br><span class="cv-inst">Prof. Virendra Singh, IIT Bombay</span><ul class="items"><li><span class="item">Modified PASS-P to preferentially reallocate dead blocks, reducing dead blocks by over 10%</span></li></ul></div></div>
+        </div></div>
+
+        <div class="card mt-3 p-3"><h3 class="card-title font-weight-medium">Professional Experience</h3><div>
+          <div class="cv-entry"><div class="cv-yr"><span class="badge-toc">2023</span></div><div><strong>Embedded Software Intern</strong><br><span class="cv-inst">Texas Instruments, Bangalore, India</span><ul class="items"><li><span class="item">Created a driver-monitoring application for the AM62Ax Sitara processor using GStreamer</span></li><li><span class="item">Modified GStreamer pipelines to enable stacking of multiple DNN models</span></li><li><span class="item">Created a boot loader porting guide for the Sitara AM62x processor</span></li></ul></div></div>
+        </div></div>
+
+        <div class="card mt-3 p-3"><h3 class="card-title font-weight-medium">Teaching &amp; Mentorship</h3><div>
+          <div class="cv-entry"><div class="cv-yr"><span class="badge-toc">2025 - Present</span></div><div><strong>Graduate Application Assistance Program (GAAP) Mentor</strong><br><span class="cv-inst">MIT EECS</span></div></div>
+          <div class="cv-entry"><div class="cv-yr"><span class="badge-toc">2024 - 2025</span></div><div><strong>Department Academic Mentor</strong><br><span class="cv-inst">Student Mentorship Program, IIT Bombay</span></div></div>
+          <div class="cv-entry"><div class="cv-yr"><span class="badge-toc">2022 - 2025</span></div><div><strong>Teaching Assistant</strong><br><span class="cv-inst">CS773, CS683, EE789, EE229, EE309 — IIT Bombay</span></div></div>
+        </div></div>
+
+        <div class="card mt-3 p-3"><h3 class="card-title font-weight-medium">Awards &amp; Honours</h3><div>
+          <ul class="card-text font-weight-light list-group list-group-flush">
+            <li class="list-group-item">Distinguished Artifact Award, USENIX Security Symposium (2025)</li>
+            <li class="list-group-item">Intel India Research Fellowship 2024-25 (grant of INR 800,000)</li>
+            <li class="list-group-item">Ranked 5th among 99 students in the EE Dual Degree program, IIT Bombay (2024)</li>
+            <li class="list-group-item">Undergraduate Research Award, IIT Bombay (2023)</li>
+            <li class="list-group-item">All India Rank 266 in JEE (Advanced) among 160,000+ candidates (2020)</li>
+            <li class="list-group-item">KVPY Fellowship, All India Rank 337 (2018)</li>
+          </ul>
+        </div></div>
+
+        <div class="card mt-3 p-3"><h3 class="card-title font-weight-medium">Skills</h3><div>
+          <div class="skill-cards">
+            <div class="skill-card"><div class="skill-head"><i class="fas fa-code"></i> Languages</div><p>C, C++, VHDL, Verilog, Python, Assembly (8085), Algorithmic Assembly (Aa), Heptagon</p></div>
+            <div class="skill-card"><div class="skill-head"><i class="fas fa-toolbox"></i> Software</div><p>Intel Quartus, Vivado, Autodesk Fusion 360, GStreamer, Cadence Virtuoso, Synopsys Sentaurus, MATLAB, LTSpice, LaTeX</p></div>
+            <div class="skill-card"><div class="skill-head"><i class="fas fa-microchip"></i> Simulators</div><p>ChampSim, gem5, Sniper, GPGPU-Sim, CacheFX, PCACTI</p></div>
           </div>
-        </div>
+        </div></div>
       </div>
     </article>
   </div>

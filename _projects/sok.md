@@ -5,6 +5,7 @@ description: "Identifying security knobs in modern secure randomized caches and 
 img: assets/img/knobs.png
 importance: 2
 category: research
+github: https://github.com/AnubhavBhatla/systematization-of-secure-randomized-caches
 related_publications: sok, maya, mirage
 ---
 

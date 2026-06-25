@@ -9,7 +9,13 @@ profile:
   image: Photo_Formal.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <center>Cambridge, Massachusetts</center>
+    <p class="profile-location">Cambridge, Massachusetts</p>
+    <div class="profile-actions">
+      <a href="/assets/pdf/CV.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> CV</a>
+      <a href="https://scholar.google.com/citations?user=TxN4QnkAAAAJ"><i class="ai ai-google-scholar" aria-hidden="true"></i> Scholar</a>
+      <a href="https://github.com/AnubhavBhatla"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+      <a href="mailto:bhatlaanubhav2001@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
+    </div>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts

@@ -23,6 +23,9 @@
               {%- endfor %}
               </table>
             </div>
+            {% if include.limit and news_size > news_limit %}
+            <div class="news-more"><a href="{{ '/news/' | relative_url }}">all news &rarr;</a></div>
+            {% endif %}
           {%- else -%}
             <p>No news so far...</p>
           {%- endif %}
