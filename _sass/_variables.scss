@@ -46,6 +46,12 @@ $purple-color:        #B509AC !default;
 $light-purple-color:  lighten($purple-color, 25%);
 $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
+
+// MIT cardinal palette (site accent)
+$cardinal-color:        #A31F34 !default;       // MIT cardinal red
+$cardinal-color-dark:   #7D1727 !default;       // darker hover (light mode)
+$cardinal-color-light:  #E2697A !default;       // legible accent on dark bg
+$cardinal-color-bright: #EE8090 !default;       // brighter hover (dark mode)
 $yellow-color:        #efcc00 !default;
 
 $grey-color:          #828282 !default;
@@ -100,7 +106,7 @@ $xing-color                 : #006567;
 
 // Theme colors
 
-$code-bg-color-light:     rgba($purple-color, 0.05);
+$code-bg-color-light:     rgba($cardinal-color, 0.06);
 $code-bg-color-dark:      #2c3237 !default;
 
 // Font awesome location

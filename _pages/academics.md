@@ -2,15 +2,18 @@
 layout: page
 permalink: /academics/
 title: Academics
-description:
+description: A catalogue of courses I have taken across my graduate and undergraduate studies.
 nav: true
 nav_order: 6
 toc:
   sidebar: true
 ---
 
+<div class="course-catalog" markdown="1">
+
 ## MIT Courses
 ---------------
+* [6.591](https://shd.mit.edu/home/) - Secure Hardware Design
 * [6.512](https://frap.csail.mit.edu/main) - Formal Reasoning about Programs
 
 ## Electives
@@ -128,3 +131,5 @@ toc:
 * [HS101](https://www.hss.iitb.ac.in/en/hs-101-economics) - Economics
 * [HS200](https://dampeeiitb.wordpress.com/hs200-2020/) - Environmental Studies
 * [HS307](https://dampiitbche.wordpress.com/course-reviews/minors-insti-electives/hs-307-sociology/) - Sociology
+
+</div>
